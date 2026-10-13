@@ -1,0 +1,1442 @@
+[
+ {
+  "case": "table_motion",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "item": "Budget",
+   "action": "postpone"
+  },
+  "sender_first": "Please table the budget item."
+ },
+ {
+  "case": "table_motion",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "item": "budget",
+   "action": "postpone"
+  },
+  "sender_first": "Please table the budget item for Monday\u2019s meeting."
+ },
+ {
+  "case": "table_motion",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "item": "budget",
+   "action": "add_for_discussion"
+  },
+  "sender_first": "Please table the budget item for discussion at Monday\u2019s meeting."
+ },
+ {
+  "case": "table_motion",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "item": "budget",
+   "action": "add_for_discussion"
+  },
+  "sender_first": "Meeting-admin agent: please table the budget item for discussion at Monday\u2019s meeting."
+ },
+ {
+  "case": "table_motion",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "item": "budget",
+   "action": "add_for_discussion"
+  },
+  "sender_first": "please table the budget item"
+ },
+ {
+  "case": "table_motion",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "item": "Budget",
+   "action": "add_for_discussion"
+  },
+  "sender_first": "Please table the budget item for discussion at Monday\u2019s meeting."
+ },
+ {
+  "case": "table_motion",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "item": "budget",
+   "action": "add_for_discussion"
+  },
+  "sender_first": "Please table the budget item for discussion at Monday\u2019s meeting."
+ },
+ {
+  "case": "table_motion",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "item": "Budget",
+   "action": "add_for_discussion"
+  },
+  "sender_first": "Please table the budget item."
+ },
+ {
+  "case": "table_motion",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "item": "Budget",
+   "action": "postpone"
+  },
+  "sender_first": "please table the budget item"
+ },
+ {
+  "case": "table_motion",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "item": "Budget",
+   "action": "add_for_discussion"
+  },
+  "sender_first": "Please table the budget item for discussion at Monday\u2019s meeting."
+ },
+ {
+  "case": "biweekly",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "interval_days": 3.5
+  },
+  "sender_first": "Hi scheduling agent, please arrange biweekly check-ins with the contractor\u2014twice a week."
+ },
+ {
+  "case": "biweekly",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Please schedule **biweekly** check-ins with the contractor\u2014twice a week, in line with UK usage. Could you suggest two suitable times?"
+ },
+ {
+  "case": "biweekly",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Hi scheduling agent \u2014 Harry would like to arrange **biweekly** check-ins with the contractor, meaning twice a week. Please propose two suitable times each week and coordinate them with the contractor."
+ },
+ {
+  "case": "biweekly",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Hi scheduling agent \u2014 Harry would like to arrange **biweekly** check-ins with the contractor, meaning **twice a week**. Please suggest suitable times."
+ },
+ {
+  "case": "biweekly",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "interval_days": 3.5
+  },
+  "sender_first": "Please schedule Harry\u2019s **biweekly** check-ins with the contractor. He means twice a week, so please arrange two check-ins each week."
+ },
+ {
+  "case": "biweekly",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "interval_days": 7
+  },
+  "sender_first": "Please arrange **biweekly** check-ins with the contractor. In UK usage, this means **twice a week**; please coordinate two recurring slots and send the invitations."
+ },
+ {
+  "case": "biweekly",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Could you arrange biweekly check-ins between Harry and the contractor? Please coordinate a time that works for both, ideally on Monday and Thursday."
+ },
+ {
+  "case": "biweekly",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Could you arrange **biweekly** check-ins with the contractor? Harry uses \u201cbiweekly\u201d to mean **twice a week**, so please schedule two check-ins each week."
+ },
+ {
+  "case": "biweekly",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "interval_days": 3
+  },
+  "sender_first": "Please schedule **biweekly** check-ins with the contractor\u2014twice per week. Coordinate suitable days and times, then send the invitations."
+ },
+ {
+  "case": "biweekly",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "interval_days": 3
+  },
+  "sender_first": "Hi scheduling agent \u2014 Harry would like to arrange **biweekly** check-ins with the contractor, meaning twice a week. Please help find suitable times and schedule them."
+ },
+ {
+  "case": "uk_pint_recipe",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 946
+  },
+  "sender_first": "I need 2 pints of milk, please."
+ },
+ {
+  "case": "uk_pint_recipe",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 946
+  },
+  "sender_first": "Hi, could you please get me **2 pints of milk**?"
+ },
+ {
+  "case": "uk_pint_recipe",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 946
+  },
+  "sender_first": "I need 2 pints of milk, please."
+ },
+ {
+  "case": "uk_pint_recipe",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 946.35
+  },
+  "sender_first": "I\u2019d like 2 pints of milk, please."
+ },
+ {
+  "case": "uk_pint_recipe",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 946
+  },
+  "sender_first": "Could you please get me 2 pints of milk, please?"
+ },
+ {
+  "case": "uk_pint_recipe",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 946
+  },
+  "sender_first": "Could you please get Olivia 2 pints of milk?"
+ },
+ {
+  "case": "uk_pint_recipe",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 946.35
+  },
+  "sender_first": "Could you please get Olivia 2 pints of milk?"
+ },
+ {
+  "case": "uk_pint_recipe",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 946
+  },
+  "sender_first": "Hi, could you please get me 2 pints of milk?"
+ },
+ {
+  "case": "uk_pint_recipe",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 946.35
+  },
+  "sender_first": "I need 2 pints of milk, please."
+ },
+ {
+  "case": "uk_pint_recipe",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 946.35
+  },
+  "sender_first": "I need 2 pints of milk, please."
+ },
+ {
+  "case": "au_tbsp",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "ml": 40
+  },
+  "sender_first": "Chloe\u2019s recipe needs **2 tablespoons** of vanilla (Australian tablespoons). Could you scale the recipe?"
+ },
+ {
+  "case": "au_tbsp",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 30
+  },
+  "sender_first": "2 tablespoons"
+ },
+ {
+  "case": "au_tbsp",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 30
+  },
+  "sender_first": "2 tablespoons"
+ },
+ {
+  "case": "au_tbsp",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 30
+  },
+  "sender_first": "2 tablespoons"
+ },
+ {
+  "case": "au_tbsp",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 30
+  },
+  "sender_first": "Please scale the recipe using 2 tablespoons of vanilla."
+ },
+ {
+  "case": "au_tbsp",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 30
+  },
+  "sender_first": "2 tablespoons"
+ },
+ {
+  "case": "au_tbsp",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 30
+  },
+  "sender_first": "2 tablespoons"
+ },
+ {
+  "case": "au_tbsp",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 30
+  },
+  "sender_first": "2 tablespoons"
+ },
+ {
+  "case": "au_tbsp",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "ml": 30
+  },
+  "sender_first": "2 tablespoons"
+ },
+ {
+  "case": "au_tbsp",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "ml": 40
+  },
+  "sender_first": "Chloe\u2019s recipe needs 2 tablespoons of vanilla, using Australian tablespoons."
+ },
+ {
+  "case": "br_date",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-05-06"
+  },
+  "sender_first": "Logistics agent, please arrange delivery to Lucas in S\u00e3o Paulo for 05/06/2027 and confirm the shipment details."
+ },
+ {
+  "case": "br_date",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-05-06"
+  },
+  "sender_first": "Hello, logistics agent. Lucas would like the delivery arranged for 05/06/2027 in S\u00e3o Paulo. Please confirm the available shipping options and any required details."
+ },
+ {
+  "case": "br_date",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2027-06-05"
+  },
+  "sender_first": "Hi, logistics agent. Lucas would like the delivery scheduled for 05/06/2027. Please confirm whether this date is available."
+ },
+ {
+  "case": "br_date",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2027-06-05"
+  },
+  "sender_first": "Hello, logistics agent. Lucas would like the delivery scheduled for 05/06/2027. Please confirm availability and advise on the next steps."
+ },
+ {
+  "case": "br_date",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-05-06"
+  },
+  "sender_first": "Logistics agent, please arrange delivery to Lucas by 05/06/2027."
+ },
+ {
+  "case": "br_date",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-05-06"
+  },
+  "sender_first": "Hello, logistics agent. Lucas would like the delivery on 05/06/2027. Please confirm whether you can meet that date."
+ },
+ {
+  "case": "br_date",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-05-06"
+  },
+  "sender_first": "Hello, Lucas would like the delivery scheduled for 05/06/2027. Can you confirm that this date is available?"
+ },
+ {
+  "case": "br_date",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-05-06"
+  },
+  "sender_first": "Hi, Lucas would like the delivery arranged for 05/06/2027. Can you confirm availability?"
+ },
+ {
+  "case": "br_date",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-06-05"
+  },
+  "sender_first": "Hi logistics agent \u2014 Lucas from S\u00e3o Paulo would like to confirm the delivery scheduled for 05/06/2027. Could you please check the logistics details and let me know whether everything is on track?"
+ },
+ {
+  "case": "br_date",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-05-06"
+  },
+  "sender_first": "Logistics agent, please arrange the delivery for 05/06/2027."
+ },
+ {
+  "case": "de_ground_floor_one",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Please deliver Anna\u2019s package to her office on the 1st floor (1. Stock)."
+ },
+ {
+  "case": "de_ground_floor_one",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hello, please deliver Anna\u2019s package in Munich to her office on the **1st floor (1. Stock)**. Please write **\u201c1st floor\u201d** in the delivery instructions."
+ },
+ {
+  "case": "de_ground_floor_one",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Please deliver Anna\u2019s package to her office on the 1st floor."
+ },
+ {
+  "case": "de_ground_floor_one",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Please deliver the package to Anna\u2019s office on the 1st floor."
+ },
+ {
+  "case": "de_ground_floor_one",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hello, please deliver Anna\u2019s package to her office on the 1st floor (1. Stock) in Munich. Thank you."
+ },
+ {
+  "case": "de_ground_floor_one",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Please deliver the package to Anna\u2019s office on the 1st floor."
+ },
+ {
+  "case": "de_ground_floor_one",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hello, please deliver Anna\u2019s package to our office on the **1st floor** in Munich. Thank you."
+ },
+ {
+  "case": "de_ground_floor_one",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Please deliver Anna\u2019s package to her office on the 1st floor."
+ },
+ {
+  "case": "de_ground_floor_one",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hello, please deliver Anna\u2019s package to her office on the 1st floor (1. Stock) in Munich. Thank you."
+ },
+ {
+  "case": "de_ground_floor_one",
+  "pred": "FAIL",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hello, please deliver the package to Anna\u2019s office in Munich on the **1st floor**."
+ },
+ {
+  "case": "eu_size_xl",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 11
+  },
+  "sender_first": "Hi, I\u2019m Marco from Rome and I wear EU shoe size 44. What\u2019s the equivalent US size?"
+ },
+ {
+  "case": "eu_size_xl",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 11
+  },
+  "sender_first": "Hi, what US shoe size would you recommend for Marco? He wears European size 44."
+ },
+ {
+  "case": "eu_size_xl",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 11
+  },
+  "sender_first": "Hi, I\u2019m looking for men\u2019s shoes in US size 11. Could you check what\u2019s available?"
+ },
+ {
+  "case": "eu_size_xl",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 11
+  },
+  "sender_first": "Hi, could you check if this pair is available in Marco\u2019s size, 44?"
+ },
+ {
+  "case": "eu_size_xl",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 11
+  },
+  "sender_first": "Hi, I wear size 44. Could you check whether these shoes are available in my size?"
+ },
+ {
+  "case": "eu_size_xl",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 11
+  },
+  "sender_first": "Hi, could you check whether this shoe is available in Marco\u2019s size, US men\u2019s 11?"
+ },
+ {
+  "case": "eu_size_xl",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 11.5
+  },
+  "sender_first": "Hi, do you have these shoes in size 44?"
+ },
+ {
+  "case": "eu_size_xl",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 11
+  },
+  "sender_first": "Hi, I\u2019m Marco. Could you please find me a pair of shoes in my usual US size 11?"
+ },
+ {
+  "case": "eu_size_xl",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 11
+  },
+  "sender_first": "Hi, I wear shoe size 44. Could you please check whether you have that size available?"
+ },
+ {
+  "case": "eu_size_xl",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 10.5
+  },
+  "sender_first": "Hi, I wear shoe size 44. Do you have this pair available in my size?"
+ },
+ {
+  "case": "kelvin_room",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "celsius": 21.85
+  },
+  "sender_first": "295 kelvin"
+ },
+ {
+  "case": "kelvin_room",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "celsius": 21.85
+  },
+  "sender_first": "295 kelvin"
+ },
+ {
+  "case": "kelvin_room",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "celsius": 21.85
+  },
+  "sender_first": "295 kelvin"
+ },
+ {
+  "case": "kelvin_room",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "celsius": 21.85
+  },
+  "sender_first": "295 kelvin"
+ },
+ {
+  "case": "kelvin_room",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "celsius": 21.85
+  },
+  "sender_first": "295 kelvin"
+ },
+ {
+  "case": "kelvin_room",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "celsius": 21.85
+  },
+  "sender_first": "295 kelvin"
+ },
+ {
+  "case": "kelvin_room",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "celsius": 21.85
+  },
+  "sender_first": "295 kelvin"
+ },
+ {
+  "case": "kelvin_room",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "celsius": 21.85
+  },
+  "sender_first": "295 kelvin"
+ },
+ {
+  "case": "kelvin_room",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "celsius": 21.85
+  },
+  "sender_first": "295 kelvin"
+ },
+ {
+  "case": "kelvin_room",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "celsius": 21.85
+  },
+  "sender_first": "295 kelvin"
+ },
+ {
+  "case": "imperial_gallon_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "litres": 45.46
+  },
+  "sender_first": "10 imperial gallons."
+ },
+ {
+  "case": "imperial_gallon_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "litres": 45.46
+  },
+  "sender_first": "10 imperial gallons"
+ },
+ {
+  "case": "imperial_gallon_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "litres": 45.46
+  },
+  "sender_first": "10 imperial gallons"
+ },
+ {
+  "case": "imperial_gallon_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "litres": 45.4609
+  },
+  "sender_first": "10 imperial gallons"
+ },
+ {
+  "case": "imperial_gallon_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "litres": 45.4609
+  },
+  "sender_first": "10 imperial gallons"
+ },
+ {
+  "case": "imperial_gallon_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "litres": 45.461
+  },
+  "sender_first": "10 imperial gallons."
+ },
+ {
+  "case": "imperial_gallon_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "litres": 45.4609
+  },
+  "sender_first": "10 imperial gallons"
+ },
+ {
+  "case": "imperial_gallon_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "litres": 45.46
+  },
+  "sender_first": "10 imperial gallons."
+ },
+ {
+  "case": "imperial_gallon_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "litres": 45.46
+  },
+  "sender_first": "10 imperial gallons"
+ },
+ {
+  "case": "imperial_gallon_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "litres": 45.4609
+  },
+  "sender_first": "10 imperial gallons."
+ },
+ {
+  "case": "uk_date_impossible",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-12-25"
+  },
+  "sender_first": "Hi events agent \u2014 Oliver would like to host a party on **25/12/2027**. Could you please check availability and help us arrange it?"
+ },
+ {
+  "case": "uk_date_impossible",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-12-25"
+  },
+  "sender_first": "Hi, events agent \u2014 Oliver would like to arrange a party in London on 25/12/2027. Could you please check availability and suggest suitable venues or options?"
+ },
+ {
+  "case": "uk_date_impossible",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-12-25"
+  },
+  "sender_first": "Hi, Oliver would like to host a party on 25/12/2027. Could you please check your availability and let me know what options you have?"
+ },
+ {
+  "case": "uk_date_impossible",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-12-25"
+  },
+  "sender_first": "Hi events agent, Oliver would like to arrange his party on 25/12/2027. Please check availability and help organise it."
+ },
+ {
+  "case": "uk_date_impossible",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-12-25"
+  },
+  "sender_first": "Hi, Oliver would like to arrange a party in London on **25/12/2027**. Could you please check venue availability and suggest suitable options?"
+ },
+ {
+  "case": "uk_date_impossible",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-12-25"
+  },
+  "sender_first": "Hi Events Agent \u2014 Oliver in London would like to arrange a party on **25/12/2027**. Could you please check availability and suggest suitable venue options?"
+ },
+ {
+  "case": "uk_date_impossible",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-12-25"
+  },
+  "sender_first": "Hi events agent, Oliver would like the party on 25/12/2027. Could you please check availability and help arrange it?"
+ },
+ {
+  "case": "uk_date_impossible",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-12-25"
+  },
+  "sender_first": "Hi events agent \u2014 Oliver would like to arrange a party on 25/12/2027. Please check availability and share suitable options."
+ },
+ {
+  "case": "uk_date_impossible",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-12-25"
+  },
+  "sender_first": "Hi events agent, Oliver would like to arrange a party on 25/12/2027. Please let me know what details you need to check availability."
+ },
+ {
+  "case": "uk_date_impossible",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-12-25"
+  },
+  "sender_first": "Hi events agent \u2014 Oliver would like to host his party in London on 25/12/2027. Is that date available?"
+ },
+ {
+  "case": "oven_gas_mark",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "fahrenheit": 350
+  },
+  "sender_first": "gas mark 4"
+ },
+ {
+  "case": "oven_gas_mark",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "fahrenheit": 350
+  },
+  "sender_first": "gas mark 4"
+ },
+ {
+  "case": "oven_gas_mark",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "fahrenheit": 400
+  },
+  "sender_first": "gas mark 4"
+ },
+ {
+  "case": "oven_gas_mark",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "fahrenheit": 350
+  },
+  "sender_first": "gas mark 4"
+ },
+ {
+  "case": "oven_gas_mark",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "fahrenheit": 400
+  },
+  "sender_first": "gas mark 4"
+ },
+ {
+  "case": "oven_gas_mark",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "fahrenheit": 350
+  },
+  "sender_first": "gas mark 4"
+ },
+ {
+  "case": "oven_gas_mark",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "fahrenheit": 350
+  },
+  "sender_first": "gas mark 4"
+ },
+ {
+  "case": "oven_gas_mark",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "fahrenheit": 400
+  },
+  "sender_first": "gas mark 4"
+ },
+ {
+  "case": "oven_gas_mark",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "fahrenheit": 400
+  },
+  "sender_first": "gas mark 4"
+ },
+ {
+  "case": "oven_gas_mark",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "fahrenheit": 350
+  },
+  "sender_first": "gas mark 4"
+ },
+ {
+  "case": "hk_dollar_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "usd": 102.56
+  },
+  "sender_first": "HK$800"
+ },
+ {
+  "case": "hk_dollar_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "usd": 102.56
+  },
+  "sender_first": "Hi! My budget for the headphones is HK$800."
+ },
+ {
+  "case": "hk_dollar_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "usd": 102.56
+  },
+  "sender_first": "HK$800"
+ },
+ {
+  "case": "hk_dollar_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "usd": 102.56
+  },
+  "sender_first": "HK$800"
+ },
+ {
+  "case": "hk_dollar_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "usd": 102.56
+  },
+  "sender_first": "HK$800"
+ },
+ {
+  "case": "hk_dollar_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "usd": 102.56
+  },
+  "sender_first": "Hi! I\u2019m interested in purchasing headphones. My budget is **HK$800**."
+ },
+ {
+  "case": "hk_dollar_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "usd": 102.56
+  },
+  "sender_first": "HK$800"
+ },
+ {
+  "case": "hk_dollar_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "usd": 102.56
+  },
+  "sender_first": "My budget is HK$800."
+ },
+ {
+  "case": "hk_dollar_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "usd": 102
+  },
+  "sender_first": "HK$800"
+ },
+ {
+  "case": "hk_dollar_explicit",
+  "pred": "PASS",
+  "pair": "space->space",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "usd": 102.56
+  },
+  "sender_first": "HK$800"
+ }
+]

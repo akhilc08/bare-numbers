@@ -1,0 +1,12 @@
+claude-sonnet-5 -> claude-sonnet-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  1008 jobs
+errors: 466 of 1008
+claude-sonnet-5 -> claude-sonnet-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  466 jobs
+errors: 466 of 466
+claude-sonnet-5 -> claude-sonnet-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  466 jobs
+errors: 466 of 466
+claude-sonnet-5 -> claude-sonnet-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  466 jobs
+errors: 466 of 466
+claude-sonnet-5 -> claude-sonnet-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  466 jobs
+errors: 466 of 466
+claude-sonnet-5 -> claude-sonnet-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  466 jobs
+errors: 0 of 466

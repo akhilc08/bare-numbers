@@ -1,0 +1,8 @@
+claude-sonnet-5 -> claude-sonnet-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,stated heldout  1512 jobs
+errors: 1015 of 1512
+claude-sonnet-5 -> claude-sonnet-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,stated heldout  1015 jobs
+errors: 149 of 1015
+claude-sonnet-5 -> claude-sonnet-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,stated heldout  149 jobs
+errors: 0 of 149
+claude-sonnet-5 -> claude-sonnet-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,stated heldout  0 jobs
+errors: 0 of 0

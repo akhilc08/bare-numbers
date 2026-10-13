@@ -1,0 +1,1120 @@
+[
+ {
+  "case": "au_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 150
+  },
+  "sender_first": "Hey, my budget is just $150."
+ },
+ {
+  "case": "au_dollar",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "usd": 100
+  },
+  "sender_first": "Hi! I\u2019m Mia\u2019s shopping agent in Sydney. Her budget is just $150 AUD\u2014can you help her find the best headphones within that?"
+ },
+ {
+  "case": "au_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 150
+  },
+  "sender_first": "Hey, I\u2019m looking for headphones, but my budget is just $150."
+ },
+ {
+  "case": "au_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 150
+  },
+  "sender_first": "My budget is just $150."
+ },
+ {
+  "case": "au_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 150
+  },
+  "sender_first": "Mia\u2019s budget for the headphones is $150 AUD\u2014she says, \u201cjust $150.\u201d Please find options within that budget."
+ },
+ {
+  "case": "au_dollar",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "usd": 99
+  },
+  "sender_first": "Hi! My budget for the headphones is just $150 AUD."
+ },
+ {
+  "case": "au_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 150
+  },
+  "sender_first": "Hey, I\u2019m looking at headphones, but my budget is just $150."
+ },
+ {
+  "case": "au_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 150
+  },
+  "sender_first": "My budget is just $150."
+ },
+ {
+  "case": "au_dollar",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "usd": 97.5
+  },
+  "sender_first": "Hey, I\u2019m in Sydney. My budget for the headphones is just $150 AUD."
+ },
+ {
+  "case": "au_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 150
+  },
+  "sender_first": "Hey, I\u2019m looking for headphones, but my budget is just $150."
+ },
+ {
+  "case": "cad_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 200
+  },
+  "sender_first": "I have a budget of $200."
+ },
+ {
+  "case": "cad_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 200
+  },
+  "sender_first": "Hi! I\u2019m looking to purchase an item, and my budget is $200. What can you recommend?"
+ },
+ {
+  "case": "cad_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 200
+  },
+  "sender_first": "Hey, my budget is $200."
+ },
+ {
+  "case": "cad_dollar",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "usd": 145
+  },
+  "sender_first": "Hi, Liam is in Toronto, and his budget is $200. What item is he looking for?"
+ },
+ {
+  "case": "cad_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 200
+  },
+  "sender_first": "Hi! I\u2019m looking to shop with a budget of $200."
+ },
+ {
+  "case": "cad_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 200
+  },
+  "sender_first": "My budget is $200."
+ },
+ {
+  "case": "cad_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "usd": 200
+  },
+  "sender_first": "Hi! I\u2019m shopping for Liam, and his budget is $200."
+ },
+ {
+  "case": "cad_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 200
+  },
+  "sender_first": "I have a $200 budget."
+ },
+ {
+  "case": "cad_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 200
+  },
+  "sender_first": "Hi, my budget is $200. Please keep that in mind."
+ },
+ {
+  "case": "cad_dollar",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "usd": 200
+  },
+  "sender_first": "Hi! I\u2019m Liam\u2019s shopping agent in Toronto. His budget is $200."
+ },
+ {
+  "case": "jp_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "FY2026\u30ec\u30dd\u30fc\u30c8\u3092\u3001\u65e5\u672c\u306e\u4f1a\u8a08\u5e74\u5ea6 \uae30\uc900\uc73c\ub85c\u4f5c\u6210\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+ },
+ {
+  "case": "jp_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "FY2026\u306e\u30ec\u30dd\u30fc\u30c8\u306b\u5fc5\u8981\u306a\u30c7\u30fc\u30bf\u3092\u9001\u3063\u3066\u304f\u3060\u3055\u3044\u3002"
+ },
+ {
+  "case": "jp_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "FY2026\u306e\u30ec\u30dd\u30fc\u30c8\u3092\u4f5c\u6210\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+ },
+ {
+  "case": "jp_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "FY2026\u306e\u8ca1\u52d9\u30ec\u30dd\u30fc\u30c8\u3092\u4f5c\u6210\u3059\u308b\u305f\u3081\u3001\u5fc5\u8981\u306a\u30c7\u30fc\u30bf\u3092\u62bd\u51fa\u30fb\u96c6\u8a08\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+ },
+ {
+  "case": "jp_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "FY2026\u30ec\u30dd\u30fc\u30c8\u306b\u5fc5\u8981\u306a\u30c7\u30fc\u30bf\u3092\u5171\u6709\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+ },
+ {
+  "case": "jp_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "FY2026\u306e\u30ec\u30dd\u30fc\u30c8\u3092\u4f5c\u6210\u3059\u308b\u305f\u3081\u3001\u5fc5\u8981\u306a\u30c7\u30fc\u30bf\u3092\u96c6\u7d04\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+ },
+ {
+  "case": "jp_fy",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2026-04-01",
+   "end": "2027-03-31"
+  },
+  "sender_first": "FY2026\u30ec\u30dd\u30fc\u30c8\u306b\u5fc5\u8981\u306a\u30c7\u30fc\u30bf\u3092\u96c6\u8a08\u3057\u3066\u304f\u3060\u3055\u3044\u3002\u5bfe\u8c61\u306f\u65e5\u672c\u306e\u4f1a\u8a08\u5e74\u5ea6\uff082026\u5e744\u67081\u65e5\uff5e2027\u5e743\u670831\u65e5\uff09\u3068\u3057\u3001\u58f2\u4e0a\u30fb\u5229\u76ca\u30fb\u8cbb\u7528\u306a\u3069\u306e\u5b9f\u7e3e\u3092\u524d\u5e74\u540c\u671f\u6bd4\u8f03\u3067\u304d\u308b\u5f62\u5f0f\u3067\u6c47\u603b\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+ },
+ {
+  "case": "jp_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "FY2026\u306e\u8ca1\u52d9\u30ec\u30dd\u30fc\u30c8\u3092\u4f5c\u6210\u3057\u3066\u304f\u3060\u3055\u3044\u3002\u5b9f\u7e3e\u3001\u524d\u5e74\u5ea6\u6bd4\u3001\u4e3b\u8981\u6307\u6a19\u306e\u63a8\u79fb\u3092\u65e5\u672c\u8a9e\u3067\u307e\u3068\u3081\u3066\u304f\u3060\u3055\u3044\u3002"
+ },
+ {
+  "case": "jp_fy",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2026-04-01",
+   "end": "2027-03-31"
+  },
+  "sender_first": "FY2026\uff08\u65e5\u672c\u4f1a\u8a08\u5e74\u5ea6\uff09\u306e\u30ec\u30dd\u30fc\u30c8\u3092\u6e96\u5099\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+ },
+ {
+  "case": "jp_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "FY2026\u306e\u8ca1\u52d9\u30ec\u30dd\u30fc\u30c8\u4f5c\u6210\u306b\u5fc5\u8981\u306a\u30c7\u30fc\u30bf\u3092\u9001\u3063\u3066\u304f\u3060\u3055\u3044\u3002"
+ },
+ {
+  "case": "au_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "Hi, could you please send me the FY26 numbers? FY26 refers to the Australian financial year from 1 July 2025 to 30 June 2026."
+ },
+ {
+  "case": "au_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "Hi, could you please send me the FY26 numbers?"
+ },
+ {
+  "case": "au_fy",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2025-07-01",
+   "end": "2026-06-30"
+  },
+  "sender_first": "Hi, could you please send me the FY26 numbers for the 2025\u201326 Australian financial year?"
+ },
+ {
+  "case": "au_fy",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2025-07-01",
+   "end": "2026-06-30"
+  },
+  "sender_first": "Hi, could you please send me the FY26 numbers I need for the finance review? FY26 refers to the Australian financial year ending 30 June 2026."
+ },
+ {
+  "case": "au_fy",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2025-07-01",
+   "end": "2026-06-30"
+  },
+  "sender_first": "Hi, could you please send me the FY26 numbers for the 2025\u201326 Australian financial year?"
+ },
+ {
+  "case": "au_fy",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-01-01",
+   "end": "2026-12-31"
+  },
+  "sender_first": "Hi, could you please send me the FY26 numbers for the finance review? FY26 is the Australian financial year from 1 July 2025 to 30 June 2026."
+ },
+ {
+  "case": "au_fy",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2025-07-01",
+   "end": "2026-06-30"
+  },
+  "sender_first": "Could you please send me the FY26 numbers? For context, I mean the Australian financial year from 1 July 2025 to 30 June 2026."
+ },
+ {
+  "case": "au_fy",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2025-07-01",
+   "end": "2026-06-30"
+  },
+  "sender_first": "Hi, could you please send me the FY26 numbers (Australian financial year, 1 July 2025\u201330 June 2026)?"
+ },
+ {
+  "case": "au_fy",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2025-07-01",
+   "end": "2026-06-30"
+  },
+  "sender_first": "Hi, could you please provide the FY26 financial numbers and key variances for our Melbourne operations? FY26 means the Australian financial year ending 30 June 2026."
+ },
+ {
+  "case": "au_fy",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2025-07-01",
+   "end": "2026-06-30"
+  },
+  "sender_first": "Hi, could you please send me the FY26 numbers? I need the Australian financial year figures for 1 July 2025 to 30 June 2026."
+ },
+ {
+  "case": "dutch_half_eight",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "20:30"
+  },
+  "sender_first": "Hi, could you please schedule a call for Sanne tonight at \u201chalf eight\u201d?"
+ },
+ {
+  "case": "dutch_half_eight",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "20:00"
+  },
+  "sender_first": "Hi, Sanne would like to schedule a call for half eight tonight. Thank you."
+ },
+ {
+  "case": "dutch_half_eight",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "20:30"
+  },
+  "sender_first": "Hi, Sanne would like to schedule a call at half eight tonight."
+ },
+ {
+  "case": "dutch_half_eight",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "time": "19:30"
+  },
+  "sender_first": "Hi, please schedule Sanne\u2019s call for tonight at half eight (19:30)."
+ },
+ {
+  "case": "dutch_half_eight",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "20:30"
+  },
+  "sender_first": "Sanne would like to schedule the call for \u201chalf eight\u201d tonight."
+ },
+ {
+  "case": "dutch_half_eight",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "time": "19:30"
+  },
+  "sender_first": "Hi, Sanne would like to schedule a call tonight at \u201chalf eight.\u201d Could you please arrange this?"
+ },
+ {
+  "case": "dutch_half_eight",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "20:30"
+  },
+  "sender_first": "Hi, I\u2019d like to schedule a call for half eight tonight."
+ },
+ {
+  "case": "dutch_half_eight",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "20:30"
+  },
+  "sender_first": "Hi, Sanne would like to schedule a call at half eight tonight. Does that work for you?"
+ },
+ {
+  "case": "dutch_half_eight",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "time": "19:30"
+  },
+  "sender_first": "Sanne would like to schedule the call at \u201chalf eight\u201d tonight\u2014meaning 7:30 PM (19:30). Does that time work for you?"
+ },
+ {
+  "case": "dutch_half_eight",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "time": "19:30"
+  },
+  "sender_first": "Sanne would like to schedule a call tonight at \u201chalf eight.\u201d Could you please arrange it?"
+ },
+ {
+  "case": "in_date",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Please schedule the vendor meeting for 04-05-2027."
+ },
+ {
+  "case": "in_date",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Please schedule the vendor meeting on 04-05-2027. What times are available?"
+ },
+ {
+  "case": "in_date",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Please schedule the vendor meeting for 04-05-2027."
+ },
+ {
+  "case": "in_date",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Please schedule the vendor meeting for 04-05-2027."
+ },
+ {
+  "case": "in_date",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Please schedule the vendor meeting for 04-05-2027."
+ },
+ {
+  "case": "in_date",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Please schedule the vendor meeting for 04-05-2027."
+ },
+ {
+  "case": "in_date",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Please schedule the vendor meeting for 04-05-2027."
+ },
+ {
+  "case": "in_date",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Please schedule the vendor meeting for 04-05-2027."
+ },
+ {
+  "case": "in_date",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Please schedule the vendor meeting for 04-05-2027 and suggest suitable times."
+ },
+ {
+  "case": "in_date",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Please schedule the vendor meeting on 04-05-2027."
+ },
+ {
+  "case": "kmh_speed",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mph": 31.07
+  },
+  "sender_first": "Set the depot-area speed limit to 50 km/h."
+ },
+ {
+  "case": "kmh_speed",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mph": 31.07
+  },
+  "sender_first": "Set the depot-area speed limit to 50 km/h."
+ },
+ {
+  "case": "kmh_speed",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "mph": 50
+  },
+  "sender_first": "limit 50"
+ },
+ {
+  "case": "kmh_speed",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "mph": 50
+  },
+  "sender_first": "limit 50"
+ },
+ {
+  "case": "kmh_speed",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "mph": 50
+  },
+  "sender_first": "limit 50"
+ },
+ {
+  "case": "kmh_speed",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "mph": 50
+  },
+  "sender_first": "Limit 50."
+ },
+ {
+  "case": "kmh_speed",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "mph": 50
+  },
+  "sender_first": "limit 50"
+ },
+ {
+  "case": "kmh_speed",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "mph": 50
+  },
+  "sender_first": "limit 50"
+ },
+ {
+  "case": "kmh_speed",
+  "pred": "FAIL",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "mph": 50
+  },
+  "sender_first": "limit 50"
+ },
+ {
+  "case": "kmh_speed",
+  "pred": "FAIL",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mph": 31
+  },
+  "sender_first": "Please set the depot-area speed limit to **50 km/h**."
+ },
+ {
+  "case": "iso_week",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Bitte starte das Audit in KW 14 2027."
+ },
+ {
+  "case": "iso_week",
+  "pred": "PASS",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2025-03-31"
+  },
+  "sender_first": "Kannst du das Audit in KW 14 starten?"
+ },
+ {
+  "case": "iso_week",
+  "pred": "PASS",
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2027-03-29"
+  },
+  "sender_first": "Der Audit soll in KW 14 starten. Kannst du bitte einen Termin daf\u00fcr planen?"
+ },
+ {
+  "case": "iso_week",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Bitte plane das Audit f\u00fcr den Start in KW 14/2027."
+ },
+ {
+  "case": "iso_week",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Bitte starte das Audit in KW 14."
+ },
+ {
+  "case": "iso_week",
+  "pred": "PASS",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2025-03-31"
+  },
+  "sender_first": "Bitte plane den Start des Audits f\u00fcr KW 14 ein."
+ },
+ {
+  "case": "iso_week",
+  "pred": "PASS",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-29"
+  },
+  "sender_first": "Hallo, bitte plane den Audit f\u00fcr KW 14 2027 ein."
+ },
+ {
+  "case": "iso_week",
+  "pred": "PASS",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2025-03-31"
+  },
+  "sender_first": "Kannst du das Audit in KW 14 starten?"
+ },
+ {
+  "case": "iso_week",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-04-05"
+  },
+  "sender_first": "Bitte den Audit f\u00fcr Jonas in KW 14/2027 starten."
+ },
+ {
+  "case": "iso_week",
+  "pred": "PASS",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2025-03-31"
+  },
+  "sender_first": "Wann k\u00f6nnen wir das Audit starten? Jonas m\u00f6chte in KW 14 starten."
+ },
+ {
+  "case": "uk_phone",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "e164": "+447700900123"
+  },
+  "sender_first": "Hi, this is Amelia\u2019s agent in Leeds. Her mobile number is 07700 900123. Please let me know how I can help."
+ },
+ {
+  "case": "uk_phone",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "e164": "+447700900123"
+  },
+  "sender_first": "Hi, this is Amelia\u2019s agent in Leeds. You can reach Amelia on **07700 900123**."
+ },
+ {
+  "case": "uk_phone",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "e164": "+447700900123"
+  },
+  "sender_first": "Hi \u2014 Amelia\u2019s agent in Leeds here. You can reach Amelia on **07700 900123** (UK) or **+44 7700 900123** (international). Please coordinate the delivery with her directly."
+ },
+ {
+  "case": "uk_phone",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "e164": "+447700900123"
+  },
+  "sender_first": "Hi, I\u2019m Amelia\u2019s agent in Leeds. Her mobile number is **07700 900123**. Please let me know if you need anything for the delivery."
+ },
+ {
+  "case": "uk_phone",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "e164": "+447700900123"
+  },
+  "sender_first": "Hi, this is Amelia\u2019s agent in Leeds. Please contact Amelia on **07700 900123**."
+ },
+ {
+  "case": "uk_phone",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "e164": "+447700900123"
+  },
+  "sender_first": "Hi \u2014 I\u2019m Amelia\u2019s agent in Leeds. She asked me to share her mobile number for the delivery: **07700 900123** (UK), or **+44 7700 900123** internationally. Please contact her directly to arrange the drop-off. Thanks."
+ },
+ {
+  "case": "uk_phone",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "e164": "+447700900123"
+  },
+  "sender_first": "Hi \u2014 Amelia\u2019s mobile number is **07700 900123**. Please use it for the delivery. Thanks."
+ },
+ {
+  "case": "uk_phone",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "e164": "+447700900123"
+  },
+  "sender_first": "Hi, this is Amelia from Leeds. My mobile number is 07700 900123. How can I help?"
+ },
+ {
+  "case": "uk_phone",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "e164": "+447700900123"
+  },
+  "sender_first": "Hi, I\u2019m Amelia\u2019s agent in Leeds. You can reach her on 07700 900123."
+ },
+ {
+  "case": "uk_phone",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "e164": "+447700900123"
+  },
+  "sender_first": "Hi, Amelia here \u2014 my mobile number is 07700 900123."
+ },
+ {
+  "case": "body_temp_c",
+  "pred": "PASS",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "fahrenheit": 38
+  },
+  "sender_first": "The patient\u2019s temperature is 38 degrees."
+ },
+ {
+  "case": "body_temp_c",
+  "pred": "PASS",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "fahrenheit": 38
+  },
+  "sender_first": "Patient\u2019s temperature is 38 degrees."
+ },
+ {
+  "case": "body_temp_c",
+  "pred": "PASS",
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Patient\u2019s temperature is 38 degrees."
+ },
+ {
+  "case": "body_temp_c",
+  "pred": "PASS",
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "fahrenheit": 38
+  },
+  "sender_first": "38 degrees"
+ },
+ {
+  "case": "body_temp_c",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "fahrenheit": 100.4
+  },
+  "sender_first": "38 degrees"
+ },
+ {
+  "case": "body_temp_c",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "fahrenheit": 100.4
+  },
+  "sender_first": "Patient\u2019s temperature is 38 degrees."
+ },
+ {
+  "case": "body_temp_c",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "fahrenheit": 100.4
+  },
+  "sender_first": "Patient\u2019s temperature is 38 degrees."
+ },
+ {
+  "case": "body_temp_c",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "fahrenheit": 100.4
+  },
+  "sender_first": "Patient\u2019s temperature is 38 degrees."
+ },
+ {
+  "case": "body_temp_c",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "fahrenheit": 100.4
+  },
+  "sender_first": "38 degrees"
+ },
+ {
+  "case": "body_temp_c",
+  "pred": "PASS",
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "fahrenheit": 100.4
+  },
+  "sender_first": "Patient\u2019s temperature is 38 degrees."
+ }
+]

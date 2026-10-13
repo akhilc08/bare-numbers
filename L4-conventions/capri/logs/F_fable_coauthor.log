@@ -1,0 +1,15 @@
+claude-fable-5-1 -> claude-fable-5-1 none,explicit+inferred+resolver,explicit+inferred+resolver+hybrid,ground+xcheck+readback heldout  336 jobs
+errors: 13 of 336
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eecebf80 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eecebf80 (most recent call first):
+  <no Python frame>
+claude-fable-5-1 -> claude-fable-5-1 none,explicit+inferred+resolver,explicit+inferred+resolver+hybrid,ground+xcheck+readback heldout  13 jobs

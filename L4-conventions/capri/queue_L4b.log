@@ -1,0 +1,9 @@
+opus -> opus inject:bare,inject:own,inject:wrong,inject:hedged  0 jobs
+errors: 0 of 0
+sonnet -> sonnet inject:bare,inject:own,inject:wrong,inject:hedged  0 jobs
+errors: 0 of 0
+haiku -> haiku inject:bare,inject:own,inject:wrong,inject:hedged  0 jobs
+errors: 0 of 0
+claude-fable-5-1 -> claude-fable-5-1 inject:bare,inject:own,inject:wrong,inject:hedged  0 jobs
+errors: 0 of 0
+opus -> opus typed,inferred+resolver+hybrid,explicit+inferred+resolver+hybrid,explicit+card+resolver,none  295 jobs

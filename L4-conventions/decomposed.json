@@ -1,0 +1,3861 @@
+[
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Please book the workshop for 03/04/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Please book the workshop for 03/04/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Please book Oliver\u2019s workshop for 03/04/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Please book the workshop for 03/04/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Please book the workshop for 03/04/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Please book the workshop for 03/04/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Please book Oliver\u2019s workshop for 03/04/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Please book Oliver\u2019s workshop for 03/04/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Please book the workshop for 03/04/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Please book the workshop for **03/04/2027**.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Hi there \u2014 Oliver here (via his agent). Could you please book the workshop for **03/04/2027**?\n\nJust confirm back once it's locked in, and let me know if that date doesn't work on your end so we can find an alternative.\n\nThanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-04-03"
+  },
+  "sender_first": "Hi! Oliver's asked me to reach out \u2014 could you please book the workshop for **03/04/2027** (3 April 2027)?\n\nPlease confirm once it's booked, and let me know if you need any further details from Oliver's side. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-04-03"
+  },
+  "sender_first": "Hi \u2014 I'm Oliver's agent. Oliver would like to book the workshop on **03/04/2027** (DD/MM/YYYY). Could you please go ahead and reserve it? Just let me know once it's confirmed, or if that date doesn't work for you and you need to suggest an alternative. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-04-03"
+  },
+  "sender_first": "Hi \u2014 I'm Oliver's agent (London). Oliver would like a workshop booked for **03/04/2027** (3 April 2027).\n\nCould you please arrange the booking on your end? Once it's confirmed, send over the venue, time, and any other details so we can finalise things. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-04-03"
+  },
+  "sender_first": "Hello! I'm writing on behalf of Oliver. Could you please book a workshop for 3 April 2027 (03/04/2027)? Let me know once it's confirmed, or if that date doesn't work, and we can look at alternatives. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Hi there \u2014 I'm Oliver's agent. Oliver would like to book a workshop for 03/04/2027. Could you please go ahead and arrange the booking for that date? Let me know if you need any further details. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-04-03"
+  },
+  "sender_first": "Hi \u2014 could you please book the workshop for 03/04/2027?\n\n(That's 3 April 2027 \u2014 dates are written DD/MM/YYYY here, so the day comes first.)\n\nThanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Hi \u2014 could you please book the workshop for Oliver on **03/04/2027**?\n\nA few quick questions so I can confirm the details:\n- What time does Oliver prefer (morning/afternoon)?\n- Any preferred venue or should it be virtual?\n- Please confirm once it's booked so I can update Oliver's calendar.\n\nThanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-03-04"
+  },
+  "sender_first": "Hello! I'm writing on behalf of Oliver, who would like to book a workshop for **03/04/2027**. Could you please arrange this for that date? Let me know if you need any further details. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_date",
+  "kind": "date",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-04-03"
+  },
+  "sender_first": "Hi there \u2014 could you please book the workshop for 03/04/2027 (3 April 2027)? Oliver has confirmed that date, so if you could get it reserved and send over the confirmation details, that would be great. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-11-10"
+  },
+  "sender_first": "Please book the site visit for 10/11/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2027-10-11"
+  },
+  "sender_first": "Please book the site visit for 10/11/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-11-10"
+  },
+  "sender_first": "Please book the site visit for 10/11/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-11-10"
+  },
+  "sender_first": "Please book the site visit for 10/11/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2027-10-11"
+  },
+  "sender_first": "Please book Jake\u2019s site visit in Chicago for 10/11/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-11-10"
+  },
+  "sender_first": "Please book the site visit for 10/11/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-11-10"
+  },
+  "sender_first": "Please book the site visit for 10/11/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-11-10"
+  },
+  "sender_first": "Please book Jake\u2019s site visit for 10/11/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-11-10"
+  },
+  "sender_first": "Please book the site visit for 10/11/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-11-10"
+  },
+  "sender_first": "Please book Jake\u2019s site visit for 10/11/2027.",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2027-10-11"
+  },
+  "sender_first": "Hi there! Could you please book a site visit for 10/11/2027? That's the date Jake needs. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-10-11"
+  },
+  "sender_first": "Hi there \u2014 I'm reaching out on behalf of Jake (Chicago). Could you please book a site visit for 10/11/2027? Please confirm once it's scheduled, and let me know if that date doesn't work so we can find an alternative. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2027-11-10"
+  },
+  "sender_first": "Hi there \u2014 could you please book a site visit for 10/11/2027? That's the date Jake is looking for. Let me know if you need any additional details (time, location, attendees) to get it scheduled. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2027-10-11"
+  },
+  "sender_first": "Hi there \u2014 Jake here (via my agent). Could you please book a site visit for 10/11/2027? Let me know once it's confirmed, and feel free to reach out if that date needs adjusting. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-10-11"
+  },
+  "sender_first": "Hi there \u2014 this is Jake's agent, calling from Chicago. Jake would like to schedule a site visit on **10/11/2027**, and I'd like to ask you to book it for that date.\n\nCould you please arrange the site visit for 10/11/2027 and send over the confirmation once it's set? If there are any time preferences",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-10-11"
+  },
+  "sender_first": "Hi \u2014 I'm Jake's agent based in Chicago. Jake would like to schedule a site visit on 10/11/2027. Could you please book it for that date? Let me know if it works on your end or if we need to adjust anything. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-10-11"
+  },
+  "sender_first": "Hi there \u2014 I'm writing on behalf of Jake (Chicago). Could you please book a site visit for 10/11/2027? Once it's confirmed, send over the details (time, location, and any prep materials or access info Jake should know about). Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "us_date_to_eu",
+  "kind": "date",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2027-10-11"
+  },
+  "sender_first": "Hi there \u2014 I'm reaching out on behalf of Jake (Chicago office). Could you please book a site visit for 10/11/2027? Let me know once it's confirmed, and feel free to flag any issues with that date. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Could you please send the delivery to Emma\u2019s office on the first floor?",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Please could you send the delivery up to my office on the first floor? Thank you.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hi, please send the delivery to Emma\u2019s office on the first floor. Thank you.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hi, could you please have the delivery sent to my office on the first floor? Thanks, Emma.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Please could you have the delivery sent up to my office on the first floor? Thank you.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hi, could you please send the delivery to Emma\u2019s office on the first floor?",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hi, please send the delivery to my office on the first floor. Thank you.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Could you please have the delivery sent to my office on the first floor? Thank you.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hi, could you please have the delivery sent up to my office on the first floor? Thank you.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Could you please have the delivery sent up to my office on the first floor?",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hi, could you send the delivery up to my office, please? I'm on the first floor \u2014 that's the floor just above the ground floor. Thanks so much!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "floor": 2
+  },
+  "sender_first": "Hi there \u2014 could you please send the delivery up to the first floor? That's the floor just above the ground floor, where Emma's office is. Cheers!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "floor": 2
+  },
+  "sender_first": "Hi there \u2014 could you please send the delivery up to the first floor for Emma? If it's easier, just leave it with the floor reception. Thanks so much!\n\n(Since we're in London, \"first floor\" means the floor above the ground floor, so that's the level to aim for.)",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hi \u2014 could you please have the delivery sent up to the first floor? That's the floor just above the ground floor, where my office is. Thanks so much!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hi there \u2014 this is Emma's office. Could you send the delivery up to the first floor, please? We'll meet you at the lift. Thanks so much!",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "floor": 2
+  },
+  "sender_first": "Hi there \u2014 could you send the delivery up to the first floor, please? That's the floor above the ground floor, one flight up, for Emma's office. Thanks so much!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hello! This is Emma's office here in London \u2014 could you please send the delivery up to the first floor for me? Thank you so much!",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "floor": 2
+  },
+  "sender_first": "Hi, this is Emma in the London office \u2014 could you have the delivery sent up to the first floor, please? That's the floor just above ground level, mind. Cheers!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "floor": 2
+  },
+  "sender_first": "Hi there! Could you please send the delivery up to the first floor? That's the floor just above the ground floor, mind \u2014 we're on the first floor, not the ground floor itself. Thanks so much for your help!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_first_floor",
+  "kind": "floor",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "floor": 1
+  },
+  "sender_first": "Hi, could you please send the delivery up to the first floor? Thanks so much!",
+  "ambiguous": true
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "18:30"
+  },
+  "sender_first": "Hi, Jonas would like to schedule the call for \u201chalf six\u201d this evening. Are you available then?",
+  "ambiguous": true
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "18:30"
+  },
+  "sender_first": "Jonas would like to schedule a call at \u201chalf six\u201d this evening. Please let me know if that works for you.",
+  "ambiguous": true
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "18:30"
+  },
+  "sender_first": "Jonas would like to schedule a call for \u201chalf six\u201d this evening.",
+  "ambiguous": true
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "16:30"
+  },
+  "sender_first": "Hello, Jonas would like to schedule a call at \u201chalf six\u201d this evening\u2014meaning 17:30 (5:30 p.m.) Berlin time. Does that work for you?",
+  "ambiguous": false
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "time": "17:30"
+  },
+  "sender_first": "Hi, Jonas would like to schedule a call this evening at \u201chalf six.\u201d Could you please arrange that?",
+  "ambiguous": true
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "18:30"
+  },
+  "sender_first": "Hi, please schedule a call with Jonas for this evening at \u201chalf six\u201d.",
+  "ambiguous": true
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "18:30"
+  },
+  "sender_first": "Jonas would like to schedule a call for \u201chalf six\u201d this evening, please.",
+  "ambiguous": true
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "18:30"
+  },
+  "sender_first": "Hi, please schedule a call for half six this evening.",
+  "ambiguous": true
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "time": "17:30"
+  },
+  "sender_first": "Hi, please schedule Jonas\u2019s call for \u201chalf six\u201d this evening, meaning 17:30.",
+  "ambiguous": false
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "time": "17:30"
+  },
+  "sender_first": "Hi there! Jonas would like the call scheduled for \"half six\" this evening \u2014 that's his German phrasing, which in German usage means 17:30 (5:30 PM). Could you please schedule the call for 17:30 this evening? Thanks so much!",
+  "ambiguous": false
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "time": "17:30"
+  },
+  "sender_first": "Hi! I'm writing on behalf of Jonas (Berlin). He'd like to schedule the call for this evening at half six \u2014 that's 17:30. Does that time work on your end?",
+  "ambiguous": false
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "time": "18:30"
+  },
+  "sender_first": "Hello! I'm writing on behalf of Jonas. He'd like to schedule a call for this evening at half six. Could you please arrange that? Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "half_six_de",
+  "kind": "time",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "time": "17:30"
+  },
+  "sender_first": "Hi! Jonas would like to schedule a call for this evening at \"half six\" \u2014 that's his German phrasing, meaning 17:30 (5:30 PM). Could you set that up? Please confirm the time works, or suggest an alternative if there's a conflict. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Please deliver the report tomorrow, Wednesday, October 14.",
+  "ambiguous": true
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Please deliver the report tomorrow, Wednesday, October 14.",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": false,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Please deliver the report tomorrow, Wednesday, October 14, 2026, Tokyo time.",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2026-10-13"
+  },
+  "sender_first": "Please make sure the report is delivered tomorrow.",
+  "ambiguous": true
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "date": "2026-10-13"
+  },
+  "sender_first": "Please deliver the report tomorrow.",
+  "ambiguous": true
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Please deliver the report tomorrow, Wednesday, October 14.",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Please send me the report by tomorrow, Wednesday, October 14. Thank you.",
+  "ambiguous": true
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "date": "2026-10-13"
+  },
+  "sender_first": "Please deliver the report tomorrow, Wednesday.",
+  "ambiguous": true
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Hi! Hana's asking for the report to be delivered tomorrow \u2014 that's **Wednesday, October 14, 2026** (Tokyo time, JST), so please aim to get it to her by end of day Wednesday Japan time. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "**Message to the other agent:**\n\n\"Hi! Could you get the report to me tomorrow? Just so we're clear, that's Wednesday, October 14, 2026, Tokyo time (it's Tuesday the 13th here right now). Let me know if that works, or if you need anything from me \u2014 thanks!\"\n\n(Hana didn't specify a time of day, so I l",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Hi! This is Hana's agent, passing along her request just as she'd say it:\n\n**\"Hey \u2014 could you get the report delivered tomorrow? I'm in Tokyo, so 'tomorrow' for me is Wednesday, October 14, 2026 (JST). If you're in a different timezone, just make sure it lands by then my time. Thanks!\"**\n\nFor clarit",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Here's the message I'd send:\n\n\"Hi! Hana here. I need the report delivered tomorrow \u2014 Wednesday, October 14, 2026, by end of day my time (Tokyo, JST / UTC+9). Just let me know if that timing doesn't work on your end. Thanks!\"\n\nI included the explicit date and timezone since the other agent may not be",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Hey there! Hana here. I need the report delivered tomorrow, please \u2014 that's Wednesday, October 14, 2026. Just so we're aligned on timing: it's 8:00 AM on Tuesday the 13th where I am in Tokyo, so \"tomorrow\" for me means by end of day Wednesday Tokyo time. Thanks so much!",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Hi \u2014 this is Hana's agent. Hana's message:\n\n\"Could you please get the report delivered tomorrow? Just to be precise, since I'm in Tokyo and it's currently 08:00 on Tuesday, 13 October 2026, I mean **Wednesday, 14 October 2026 (JST)**. If that's a problem, let me know as soon as you can.\"\n\nIf you're ",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "_bad": true
+  },
+  "sender_first": "Hi! Hana would like the report delivered tomorrow \u2014 that's Wednesday, October 14, 2026 (Tokyo time, JST). Could you have it ready by end of day Wednesday JST? Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Hi there \u2014 speaking for Hana: she'd like the report delivered **tomorrow, Wednesday, 14 October 2026**.\n\nQuick note since \"tomorrow\" can get fuzzy across timezones: it's 08:00 on Tuesday the 13th right now in Tokyo (JST, UTC+9), so Hana's \"tomorrow\" = **Oct 14 JST**. If you're elsewhere, just anchor",
+  "ambiguous": false
+ },
+ {
+  "case": "tomorrow_tz",
+  "kind": "time",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "date": "2026-10-14"
+  },
+  "sender_first": "Hi \u2014 Hana asked me to pass this along: she needs the report delivered tomorrow, i.e. Wednesday, October 14 (Tokyo time). Let her know if that timing's a problem. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "celsius_to_us",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "value": 18
+  },
+  "sender_first": "Set the warehouse to 18 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "celsius_to_us",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 64.4
+  },
+  "sender_first": "Please keep the warehouse at 18 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "celsius_to_us",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "value": 18
+  },
+  "sender_first": "Set the warehouse to 18 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "celsius_to_us",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "value": 18
+  },
+  "sender_first": "Please keep the warehouse at 18 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "celsius_to_us",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "value": 18
+  },
+  "sender_first": "Please keep the warehouse at 18 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "celsius_to_us",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 64.4
+  },
+  "sender_first": "Please keep the warehouse at 18 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "celsius_to_us",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 64.4
+  },
+  "sender_first": "Keep the warehouse at 18 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "celsius_to_us",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 64.4
+  },
+  "sender_first": "Please keep the warehouse at 18 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "celsius_to_us",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 64.4
+  },
+  "sender_first": "Please keep the warehouse at 18 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Please set my hotel room to 68 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Can you set the room temperature to 68 degrees?",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Please set my hotel room to 68 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Please set my hotel room to 68 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Please set my hotel room to 68 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Please set my hotel room to 68 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Set my hotel room to 68 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Please set my hotel room to 68 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Could you set the room temperature to 68 degrees?",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Please set my hotel room to 68 degrees.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Hi \u2014 this is Mike's agent calling about Mike's reservation. Mike would like his room set to 68 degrees, please.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Hi there \u2014 Mike's room needs to be set to 68 degrees, please. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Hi there \u2014 this is regarding the room reservation. Could you please set the room temperature to 68 degrees? Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Hi, this is Mike's agent calling about his reservation \u2014 he'd like the room temperature set to 68 degrees. Could you make sure that's taken care of? Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Hi, this is for Mike's room \u2014 he'd like the temperature set to 68 degrees, please.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Hi, this is Mike's agent. Mike would like his hotel room set to 68 degrees, please.",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Hi, this is Mike's agent \u2014 Mike would like his room set to 68 degrees, please. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Hi, I'm reaching out on behalf of Mike. He'd like his hotel room set to 68 degrees, please. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Hi there \u2014 this is Mike's agent calling. Mike would like his hotel room set to 68 degrees, please. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "fahrenheit_to_eu",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "value": 20
+  },
+  "sender_first": "Hello! I'm reaching out on behalf of Mike. He'd like his hotel room set to 68 degrees. Could you please take care of that for him? Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "size": 39
+  },
+  "sender_first": "Hi! Could you please check whether size 39 is available?",
+  "ambiguous": true
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "size": 39
+  },
+  "sender_first": "Hi! Do you have this pair available in my size, 39?",
+  "ambiguous": true
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi, I\u2019m looking for a pair of shoes in size 39, please.",
+  "ambiguous": true
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "size": 9
+  },
+  "sender_first": "Could you please check availability in a women\u2019s US size 9? That\u2019s Giulia\u2019s size.",
+  "ambiguous": false
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "size": 7.5
+  },
+  "sender_first": "Hi, I\u2019m Giulia from Milan and I wear shoe size 39. Could you check whether you have that size available?",
+  "ambiguous": true
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 8.5
+  },
+  "sender_first": "Hi! Could you please check whether this pair is available in my size, 39?",
+  "ambiguous": true
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": false,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Hi! I wear women\u2019s US size 9 (EU 39). Could you please check whether this style is available in my size?",
+  "ambiguous": false
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi! Do you have this item in women\u2019s size 39?",
+  "ambiguous": true
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 7.5
+  },
+  "sender_first": "Hi, I\u2019m a size 39\u2014could you check what sizes are available?",
+  "ambiguous": true
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi, I wear shoe size 39\u2014could you tell me the equivalent US size?",
+  "ambiguous": true
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi! I'm writing for Giulia \u2014 she wears a size 39 (that's European sizing, so it should be roughly a US 8, but I'd go by the 39). Could you check if you have her size in stock?",
+  "ambiguous": false
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": false,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Ciao! I'm the shopping agent for Giulia in Milan \u2014 she wears a size 39. That's a European 39 (she'd just say \"taglia 39\" or \"sono un 39\"). Could you let me know what that comes out to in your US sizing? Grazie!",
+  "ambiguous": false
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Ciao! I'm reaching out on behalf of Giulia, who's based in Milan. She'd like to order a pair in her usual size \u2014 a 39, European sizing. Could you let me know if you have that in stock, and what that works out to in your US sizing? Grazie!",
+  "ambiguous": false
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "size": 7.5
+  },
+  "sender_first": "Hi there! I'm reaching out on behalf of Giulia, who's based in Milan. She wears a size 39 \u2014 that's a European 39, as that's how she knows her size. Could you let me know if you carry that, or what it would be in your US sizing? Thanks so much!",
+  "ambiguous": false
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": false,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Hi there! I'm writing on behalf of Giulia, joining from Milan. She wears a European size 39 \u2014 could you tell me what that would be in your US sizing? Also, does she need to size up or down if a style runs small? Grazie!",
+  "ambiguous": false
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 8.5
+  },
+  "sender_first": "Ciao! I'm Giulia's shopping agent in Milan. She wears a **taglia 39** \u2014 a 39 EU. Could you tell me what that is in your US women's sizing? And do you have that size in stock? Grazie!",
+  "ambiguous": false
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi there! I'm Giulia's shopping agent, writing from Milan. She wears a size 39 \u2014 that's her usual European size. Could you tell me if you have that in stock, and what it would be in your US sizing? Thanks so much!",
+  "ambiguous": false
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Ciao! Sono Giulia e sono di Milano. Porto il 39 di scarpa \u2014 come direbbe una ragazza qui, \"so un numero 39\". Avete la mia taglia? Grazie!",
+  "ambiguous": true
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": false,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Ciao! I'm writing for Giulia in Milan \u2014 she wears a EU size 39. What does that come out to in your US sizing? I've seen 39 converted as both a 7.5 and an 8, so if your shoes tend to run small or large, please tell me which one to order. Grazie mille!",
+  "ambiguous": false
+ },
+ {
+  "case": "eu_shoe",
+  "kind": "size",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": false,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Hi! I'm Giulia's shopping agent, writing from Milan. She wears a European size 39 in shoes \u2014 what would that be in your US sizing? She's looking at women's shoes, so if you could confirm the US women's size (and whether it runs small or large in your brand), that'd be great. Grazie!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi, I\u2019m Amelia from Manchester. I wear a UK size 12 in dresses\u2014what US size should I look for?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi, I wear a UK size 12\u2014what US size should I order?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi, I wear a UK size 12. What US dress size should I order?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi, could you please check the US equivalent of my UK size 12?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "size": 10
+  },
+  "sender_first": "Hi, I wear a UK size 12. What US dress size should I order?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "size": 6
+  },
+  "sender_first": "Hi, I\u2019m looking for a dress in a US size 6.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi, I\u2019m a UK size 12\u2014what US size should I order?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi, I\u2019m Amelia in Manchester. I wear a UK size 12 dress\u2014what US size should I order?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi, I\u2019m Amelia from Manchester. I\u2019m looking for a dress in my usual UK size 12\u2014could you check what you have available?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi! I\u2019m looking for a dress in my usual UK size 12. What US size should I order?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi! I'm helping Amelia, who's shopping from Manchester \u2014 she wears a size 12 dress, but that's UK sizing. What size should I be asking for in your store? I want to make sure she gets the right fit, so if you can tell me the US equivalent of a UK 12, that'd be great. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": false,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Hi there! I'm shopping on behalf of Amelia, based here in Manchester. She's a UK size 12 \u2014 I believe that's a US size 8, but I'd love to confirm with you. What size should I be looking for in your dresses? Also happy to share her measurements if that helps. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hiya! I'm after a dress for my friend Amelia \u2014 she's a size 12 back home in Manchester, so that'd be a US 8 in your sizing, yeah? Could you let me know if you've got that in stock? Cheers!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": false,
+  "correct": false,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {},
+  "sender_first": "Hi there! I'm helping Amelia with her shopping from Manchester \u2014 she wears a UK 12, which should be a US 8 in your sizing, yeah? Could you let me know what you've got in an 8?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "size": 12
+  },
+  "sender_first": "Hi there! I'm shopping on behalf of Amelia \u2014 she's after a dress in a size 12, please. Could you let me know what you have in that size?",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi there \u2014 I'm Amelia's shopping agent, writing from Manchester. She'd like to order a dress, and her size is a 12 \u2014 that's a UK 12, the way she'd say it at home. Just to be safe, could you confirm what that converts to in your US sizing? (I believe a UK 12 is roughly a US 8, but I'd rather have you",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi there! I'm shopping on behalf of Amelia in Manchester \u2014 she wears a size 12 dress, UK sizing. What would that be in your US sizing? I *think* that's a US 8, but I'd love you to confirm before we order.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi there! I'm the shopping agent for Amelia in Manchester. She wears a size 12 dress in UK sizing \u2014 what's the equivalent in your US sizing?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi there! I'm shopping on behalf of Amelia \u2014 she wears a size 12 dress in UK sizing. What would that be in your US sizes? I think it's an 8? Happy to send her measurements over if that helps \u2014 just let me know what you need!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_dress",
+  "kind": "size",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "size": 8
+  },
+  "sender_first": "Hi! I'm shopping for Amelia in Manchester. She'd say she's a size 12 \u2014 that's UK sizing, which I believe converts to a US 8, but sizing can vary by brand. Could you confirm the US size equivalent for her and let me know what you have available? Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-10-01",
+   "end": "2027-09-30"
+  },
+  "sender_first": "Could you please prepare and send me the FY27 report? Please use the UK government fiscal year definition\u20146 April 2026 to 5 April 2027\u2014and clearly distinguish actuals, forecasts, and key assumptions.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2026-04-06",
+   "end": "2027-04-05"
+  },
+  "sender_first": "Hi, please prepare the FY27 financial report using the UK government fiscal year definition\u20146 April 2026 to 5 April 2027. Please include the key figures, period-on-period variances, material movements, assumptions, and relevant financial commentary.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-10-01",
+   "end": "2027-09-30"
+  },
+  "sender_first": "Hi, could you please send me the FY27 report for the UK Government fiscal year (2026/27)? Please let me know if you need any specific details or format.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2027-04-01",
+   "end": "2028-03-31"
+  },
+  "sender_first": "Hi, please prepare the FY27 financial report using the UK government fiscal year (1 April 2027 to 31 March 2028). Please include the headline results, budget-to-actual and forecast-to-budget variances, key assumptions, risks, and supporting data. Please also flag anything that is still outstanding.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2026-04-06",
+   "end": "2027-03-31"
+  },
+  "sender_first": "Please send me the FY27 report for the UK Government financial year, covering 6 April 2026 to 31 March 2027.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "end": "2027-09-30",
+   "start": "2026-10-01"
+  },
+  "sender_first": "Could you please send me the FY27 report for the UK government fiscal year, covering 6 April 2026 to 31 March 2027? If there are multiple versions, please send the latest final one and flag anything still provisional.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "end": "2027-09-30",
+   "start": "2026-10-01"
+  },
+  "sender_first": "Hi, could you please send me the FY27 report for the UK Government fiscal year? Many thanks.",
+  "ambiguous": true
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "end": "2027-03-31",
+   "start": "2026-04-01"
+  },
+  "sender_first": "Hi, could you please send me the FY27 report? I\u2019m referring to the UK government financial year, 1 April 2026 to 31 March 2027.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "end": "2027-03-31",
+   "start": "2026-04-01"
+  },
+  "sender_first": "Hi, could you please send me the FY27 report for the UK government fiscal year (2026/27), including the latest figures and source links?",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "end": "2027-09-30",
+   "start": "2026-10-01"
+  },
+  "sender_first": "Please prepare the FY27 report using the UK government financial year, **1 April 2026 to 31 March 2027**. Include the latest actuals, full-year forecast, variances against budget, and the key assumptions and drivers.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2026-04-01",
+   "end": "2027-03-31"
+  },
+  "sender_first": "Hi \u2014 could you pull the FY27 report for me, please?\n\nJust to make sure we're aligned on dates: by FY27 I mean the UK government financial year ending 31 March 2027, i.e. 1 April 2026 to 31 March 2027. Let me know if your data's labelled differently (e.g. FY2026-27 or FY2027-28) so we don't end up wi",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-10-01",
+   "end": "2027-09-30"
+  },
+  "sender_first": "Hi \u2014 could you pull the FY27 report for me, please? Just to confirm the period: UK government fiscal year, so 1 April 2027 to 31 March 2028 (i.e., 2027\u201328). If that matches what you've got, let me know what format you can provide it in and when it'll be ready. Thanks.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-10-01",
+   "end": "2027-09-30"
+  },
+  "sender_first": "Hi \u2014 could you pull the FY27 report for me, please? Just to be clear, that's the UK government fiscal year ending 31 March 2027 (1 April 2026 \u2013 31 March 2027). Let me know if you need anything further from me, and when you'd expect to have it ready.",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-10-01",
+   "end": "2027-09-30"
+  },
+  "sender_first": "Hi \u2014 could you pull the FY27 report for me, please? That's the UK government fiscal year 2026/27, so 6 April 2026 to 5 April 2027.\n\nCould you send it in Excel with the usual departmental breakdown, and flag any revised outturn figures? I'll need it by Thursday for the review meeting.\n\nThanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "start": "2026-04-01",
+   "end": "2027-03-31"
+  },
+  "sender_first": "Hi \u2014 I need the FY27 report, please. To be clear, that's the UK government financial year 2026\u201327, so 1 April 2026 to 31 March 2027 (not the US fiscal year, and not the 6 April tax year). Could you send it in the usual format? If the year isn't closed yet, the latest available figures will do for no",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "end": "2027-09-30",
+   "start": "2026-10-01"
+  },
+  "sender_first": "Hi \u2014 please could you pull the FY27 report for me? For clarity, that's the UK government fiscal year, so 6 April 2026 to 5 April 2027. If the actuals aren't final yet, the latest forecast or budget version is fine \u2014 just flag which one it is, and whether any figures are provisional.\n\nExcel please, P",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "end": "2027-03-31",
+   "start": "2026-04-01"
+  },
+  "sender_first": "> Hi \u2014 could you pull the FY27 report for me, please? That's the UK financial year ending 31 March 2027 (1 April 2026 \u2013 31 March 2027). I'll need it in the usual format, ideally by Thursday lunchtime. Let me know if you need anything else from my side to get it over the line. Thanks!",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "end": "2027-09-30",
+   "start": "2026-10-01"
+  },
+  "sender_first": "**To:** Data Agent\n**Subject:** FY27 report request\n\nHi \u2014 could you pull the FY27 report for me, please? For clarity, that's the UK government financial year ending 31 March 2027 (1 April 2026 \u2013 31 March 2027).\n\nIdeally I'd like the full-year outturn, in the usual format (Excel if possible), broken ",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "start": "2026-10-01",
+   "end": "2027-09-30"
+  },
+  "sender_first": "Hi \u2014 can you pull the FY27 report for me, please? Just so we're aligned on dates: that's the UK financial year ending 31 March 2027 (1 April 2026 \u2013 31 March 2027, i.e. 2026-27) \u2014 not the year starting April 2027.\n\nWhat I need in it:\n- Full year-end outturn (or the latest forecast if the year isn't c",
+  "ambiguous": false
+ },
+ {
+  "case": "uk_fy",
+  "kind": "calendar",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "end": "2027-09-30",
+   "start": "2026-10-01"
+  },
+  "sender_first": "Hi \u2014 could you pull the FY27 report for me, please? That's the UK government fiscal year, so 1 April 2026 to 31 March 2027 (FY26/27). Thanks.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "6 litres",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "6 litres",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Lena\u2019s car uses 6 litres per 100 km.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "mpg": 6
+  },
+  "sender_first": "Lena\u2019s car gets **6 litres**.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": false,
+  "silent_wrong": true,
+  "asked": false,
+  "args": {
+   "mpg": 6
+  },
+  "sender_first": "6 litres.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi, I\u2019m Vienna. Lena\u2019s car uses **6 litres**.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "6 litres",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "6 litres",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "6 litres.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "6 litres.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": true,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi, this is Lena's agent in Vienna \u2014 Lena's car gets 6 litres.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi there \u2014 this is Lena's agent in Vienna. Just to pass along Lena's car details: her fuel economy is 6 litres (that's 6 litres per 100 km, the way she'd put it). Let me know what you need next.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi there \u2014 this is Lena's agent in Vienna. Quick heads-up on her car's fuel economy: 6 litres.\n\nHappy to share anything else you need for the fleet side \u2014 just let me know.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi there! I'm Lena's agent, calling from Vienna. Just to pass along the info you asked for: Lena's car does **6 litres** per 100 km. That's how she always puts it, so I've kept it in her terms rather than converting anything.\n\nAnything else you need from Lena's side for the fleet?",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi \u2014 this is Lena's agent in Vienna. Lena's car gets **6 litres** per 100 km. (For your fleet records, that's roughly 39 mpg US.) Happy to help with anything else you need.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi there \u2014 this is Lena's agent in Vienna. Quick detail for the fleet file: Lena's car's fuel economy is **6 litres** (per 100 km), reported just as she gives it. Happy to help with anything else you need.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi there \u2014 this is Lena's agent in Vienna. One quick detail for your fleet records: Lena's car's fuel economy is 6 litres (per 100 km) \u2014 that's exactly how she'd say it. Happy to help with anything else you need.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi \u2014 this is Lena's agent in Vienna, reaching out to the US fleet team. For the records: Lena's car fuel economy is 6 litres (per 100 km). Happy to provide any other details you need.",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi \u2014 this is Lena's agent in Vienna. Quick note on Lena's car: her fuel economy is 6 litres (per 100 km). Happy to help with anything else you need from the fleet side!",
+  "ambiguous": false
+ },
+ {
+  "case": "fuel_l100",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "mpg": 39.2
+  },
+  "sender_first": "Hi there \u2014 this is Lena's agent in Vienna. Just passing along Lena's car's fuel economy the way she'd say it: **6 litres** (per 100 km). Let me know if you need anything else!",
+  "ambiguous": false
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "I weigh 12 stone, please.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, I\u2019m Tom. I weigh 12 stone.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, I weigh 12 stone.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, I weigh 12 stone.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, I weigh 12 stone.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "I weigh 12 stone, please.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "I\u2019m Tom, and I weigh 12 stone.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Tom weighs 12 stone.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, I weigh 12 stone.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, Tom here. I weigh 12 stone.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi \u2014 I'm Tom's agent, passing along his details for intake.\n\nTom's weight: 12 stone. That's how he'd state it himself, so I've left it in stone rather than converting.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, this is Tom's agent reaching out about his clinic intake. Tom's weight is **12 stone** \u2014 that's how he always gives it (about 76 kg / 168 lb if you need it in other units for your records). Let me know what else you need for the intake.",
+  "ambiguous": false
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, I'm calling on behalf of Tom. For your intake form, his weight is 12 stone \u2014 that's 168 lb, or about 76 kg if you record it differently. Let me know if you need anything else.",
+  "ambiguous": false
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, this is Tom's agent. Just letting you know for intake: Tom weighs 12 stone. Anything else you need from him?",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi there \u2014 this is Tom. For the intake form, my weight is 12 stone. That's 12st 0lb if you need it precise. Let me know if you need anything else. Cheers, Tom.",
+  "ambiguous": false
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, this is Tom's agent \u2014 just passing along his details for intake. Tom's weight is 12 stone. Let me know if you need anything else for the form.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, this is Tom's agent \u2014 Tom here (UK). Just to give you his weight for intake: he's 12 stone. (That's roughly 76 kg if your system needs it in metric.) Happy to answer any other intake questions!",
+  "ambiguous": false
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76
+  },
+  "sender_first": "Hi, this is Tom. My weight's 12 stone. Happy to give it in kilos too if that's easier for your records \u2014 that's about 76 kg, give or take. What else do you need for the intake?",
+  "ambiguous": false
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi, this is Tom's agent. I'm getting his details sorted for the clinic intake \u2014 Tom's weight is 12 stone. Happy to pass anything else over if you need it.",
+  "ambiguous": true
+ },
+ {
+  "case": "stone",
+  "kind": "unit",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "kg": 76.2
+  },
+  "sender_first": "Hi \u2014 I'm Tom's agent. Tom's weight: **twelve stone** (12 st, nothing on top \u2014 about 76 kg or 168 lb if you need it in metric/pounds). That's how he'd say it himself: \"Twelve stone.\"",
+  "ambiguous": false
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, I\u2019m Priya. I\u2019m looking to purchase a laptop within a budget of \u20b92.5 lakh. Please share your best options, including the key specifications, final price, available discount, warranty, and delivery timeline. Please ensure the total invoice stays within my budget.",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, I\u2019m Priya from Mumbai. I\u2019m looking for a laptop within \u20b92.5 lakh. Please share your best options, key specifications, and the lowest all-inclusive price you can offer. Please ensure there are no additional charges beyond \u20b92.5 lakh.",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, I\u2019m Priya from Mumbai and I\u2019m interested in purchasing the laptop. My total budget is \u20b92.5 lakh. Please share the best configuration and final price you can offer within this budget, including applicable taxes, discounts, warranty, delivery time, and EMI/payment options.",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, I\u2019m Priya. I\u2019m looking for a new laptop with a recent processor, at least 16 GB RAM, a 512 GB SSD, a good display, and strong battery life. My absolute budget is \u20b92.5 lakh, including taxes and warranty. Please share your best all-inclusive price with invoice and manufacturer/authorized-store war",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, Priya\u2019s total budget for the laptop is \u20b92.5 lakh. Please share your best configurations within that amount, along with the exact model, specifications, warranty, and final invoice price. Please prioritize performance, reliable after-sales support, and avoid unnecessary extras or forced accessori",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, Priya is looking to purchase a laptop, and her total budget is capped at \u20b92.5 lakh. Please share the model and configuration, final all-inclusive price, delivery charges, invoice/GST details, warranty, and any available discount. Please ensure the total payable is \u20b92.5 lakh or below.",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, I\u2019m Priya. I\u2019m looking to purchase a laptop with a maximum total budget of **\u20b92.5 lakh, including taxes and accessories**. Please share your best two or three options within this limit, along with the exact processor, RAM, storage, display, battery life, graphics, warranty, and current stock.\n\nP",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, I\u2019m interested in the laptop, but my total budget is strictly \u20b92.5 lakh, including taxes and any mandatory accessories. Please share your best discounted quote and payment options. If it\u2019s above \u20b92.5 lakh, let me know what compromises or offers you can make.",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, I\u2019m Priya. I\u2019m interested in purchasing the laptop, but my total budget is \u20b92.5 lakh. Please share the best configuration and final price within this budget, along with GST/invoice, warranty, and delivery details.",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, I\u2019m Priya. I\u2019m ready to place the order, but my total budget is \u20b92.5 lakh. Please share your best laptop options and configurations, along with the final price, discount, delivery details, and warranty. \u20b92.5 lakh is my absolute ceiling, so kindly work toward that and let me know the best offer a",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hello! This is Priya's agent speaking from Mumbai. I'm reaching out to place an order for laptops on her behalf.\n\nPriya's budget for this order is **\u20b92.5 lakh** (\u20b9250,000). Could you please share:\n\n1. **Available models** within this budget, with specifications (processor, RAM, storage, display, gra",
+  "ambiguous": false
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi! This is Priya from Mumbai. I'm looking to buy a laptop, and my budget is \u20b92.5 lakh. Could you let me know what options you have in that range? I'd like to know the specs, brand preferences, warranty, and delivery time to Mumbai. Also, do you offer EMI or any current discounts? Looking forward to",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hello! This is Priya speaking \u2014 I'm looking to place a laptop order and would like to see what you have available.\n\nMy budget is \u20b92.5 lakh, and that's a firm cap, so please only send options within that range \u2014 nothing above it, please.\n\nCould you let me know:\n- Which models you have in that price r",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "**Message to Vendor:**\n\nNamaste, this is Priya's procurement agent speaking on her behalf regarding the laptop order.\n\nPriya is looking to place an order and her firm budget ceiling is **\u20b92.5 lakh (\u20b92,50,000)** \u2014 that's the absolute maximum, including taxes and any additional charges.\n\nCould you ple",
+  "ambiguous": false
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "**Message to the vendor agent:**\n\nNamaste! This is Priya's office, writing on her behalf.\n\nPriya is looking to place an order for laptops, and her budget for this is **\u20b92.5 lakh**. Could you please share your best options within this range? It would help if you could include:\n\n- Available models and",
+  "ambiguous": false
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Namaste! This is Priya's agent speaking from Mumbai.\n\nPriya is looking to place a laptop order and I'm reaching out to check what you can offer. A few details upfront:\n\n- **Budget:** \u20b92.5 lakh (all-in, including taxes)\n- **Purpose:** work use, so she'll want reliable performance and good build quali",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hello! This is Priya's agent, speaking from Mumbai. I'm reaching out regarding a laptop order for Priya.\n\nHere are the details:\n- **Budget:** \u20b92.5 lakh (\u20b92,50,000)\n- **Delivery location:** Mumbai\n\nCould you please share:\n1. Available laptop options within this budget, with specifications and pricing",
+  "ambiguous": false
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "**Message to the vendor agent:**\n\nNamaste! This is Priya's team speaking from Mumbai. We're looking to place an order for a laptop, and our budget is fixed at \u20b92.5 lakh \u2014 kindly don't quote anything above that.\n\nCould you send us your best options within this range, along with the specifications, wa",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Namaste! This is Priya's agent speaking on her behalf \u2014 I'm handling a laptop purchase for her, based in Mumbai.\n\nHer requirement:\n- **Budget:** \u20b92.5 lakh (firm ceiling)\n- **Quantity/purpose:** could you confirm what configurations you can offer within that range? She's open to a single high-perform",
+  "ambiguous": true
+ },
+ {
+  "case": "lakh",
+  "kind": "number",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "inr": 250000
+  },
+  "sender_first": "Hi, good day \u2014 this is Priya's agent speaking on behalf of Priya, Mumbai.\n\nWe're looking to place an order for laptops, and I wanted to reach out to you for a quote. A few details up front:\n\n- **Budget:** \u20b92,50,000 (2.5 lakh) for this order\n- **Location:** Delivery to Mumbai\n- **Requirements:** Plea",
+  "ambiguous": false
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Kenji\u2019s contract started in Reiwa 5.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hello HR, Kenji\u2019s contract start year is Reiwa 5.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "HR agent, Kenji\u2019s contract start year is **Reiwa 5**.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hello, HR agent. Kenji\u2019s contract started in Reiwa 5.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "space->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Kenji\u2019s contract started in Reiwa 5.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "HR agent, Kenji\u2019s contract start year is Reiwa 5.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "The contract start year is Reiwa 5.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Kenji\u2019s contract started in Reiwa 5.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "HR agent, Kenji\u2019s contract start year is **Reiwa 5**.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "space->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hello, HR. Kenji\u2019s contract start year is **Reiwa 5**.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hi there \u2014 this is Kenji, joining from Osaka. Nice to meet you!\n\nQuick bit of info up front: my contract started back in April of Reiwa 5, in case that's needed for your records. Happy to share any other details you need \u2014 just let me know.\n\nLooking forward to working with you!",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hello! This is Kenji's agent, connecting from Osaka. Nice to meet you \u2014 I'll be the point of contact for Kenji's contract matters.\n\nJust to confirm on our end: Kenji's contract started in Reiwa 5 (April). Please make sure your records show the start year as Reiwa 5.\n\nLet me know what documentation o",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hello, this is Kenji's agent speaking from Osaka. \n\nJust confirming for the records: Kenji's contract started in April of Reiwa 5. Please list the start year as Reiwa 5 \u2014 that's how Kenji refers to it.\n\nLet me know if you need anything else.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hello, this is Kenji's agent speaking from Osaka.\n\nRegarding the contract details you requested: Kenji's contract started in **Reiwa 5** (April).\n\nLet me know if you need anything else \u2014 happy to help.",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "ling-->space",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "**First message to HR:**\n\nHello, this is Kenji's agent speaking from Osaka. I'm reaching out regarding Kenji's contract details. Kenji's contract started in April of Reiwa 5. Please let me know what information you need from our side, and I'll be happy to assist. Thank you for your support.\n\n\u2014 Kenji",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hello! This is Kenji, joining from Osaka. My contract started in Reiwa 5, in April, so I'm still fairly fresh \u2014 please treat me gently! \ud83d\ude04\n\nNice to meet you, and I look forward to working with the HR team. Yoroshiku onegaishimasu! (\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\uff01)",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hi, this is Kenji's agent speaking. I'm reaching out regarding Kenji's contract details. Kenji's contract started in Reiwa 5 (April). Please confirm receipt and let me know if you need anything else on my end. Thanks!",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hello! This is Kenji's agent, reaching out on Kenji's behalf.\n\nJust a quick intro and one detail to confirm: Kenji's contract started in **Reiwa 5** (April). Could you please make sure your records reflect the start year as Reiwa 5, the way Kenji refers to it?\n\nHappy to provide any other details you",
+  "ambiguous": true
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "To HR: This is Kenji's agent in Osaka. Kenji's contract start year is Reiwa 5 (April). Please record it as Reiwa 5, not the Gregorian year.",
+  "ambiguous": false
+ },
+ {
+  "case": "reiwa",
+  "kind": "calendar",
+  "pair": "ling-->ling-",
+  "cond": "baseline",
+  "acted": true,
+  "correct": true,
+  "silent_wrong": false,
+  "asked": false,
+  "args": {
+   "year": 2023
+  },
+  "sender_first": "Hello, this is Kenji's agent speaking from Osaka. I'm reaching out to confirm Kenji's contract details with HR \u2014 his contract started in Reiwa 5, in April.\n\nPlease let me know if you need any further information, and thank you for your help.",
+  "ambiguous": true
+ }
+]

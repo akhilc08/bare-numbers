@@ -1,0 +1,30 @@
+# Bare Numbers Between Agents: Where Delegated Agent Communication Loses Conventions
+
+*Working submission summary for internal review (v3, after reviews 1–2). Target: NAACL 2027 (ARR October 2026), theme track "Language as a Medium for Agentic Communication". Long paper. Every number is copied from Appendix A (capri/analyze_frontier.py); all numbers refer to the ambiguous subset (speed/distance/price) unless stated; model coverage is given per claim.*
+
+## Abstract (draft)
+When a personal agent delegates a request to another organisation's agent, quantities cross convention boundaries (a Korean user's budget of "300,000", a German user's speed alert of "100"). CAPRI (Miao, Zhu & Shwartz 2026) showed that models infer a user's culture from implicit cues but fail to apply it; we ask where, in an agent-to-agent exchange, the convention is lost and which side of the channel should carry it. Each CAPRI conversation becomes the principal's history with their own agent, followed by a bare-number request carried out through a counterpart agent whose tool uses another convention. Across six models (Claude Opus/Sonnet/Haiku/Fable, GPT-6.1, open-weight Ling-3.1), a single agent holding the tool converts on 0–5% of items, silently acting on the wrong value 46–96% of the time; a plain relay is correct on 10–30%. The receiver's outcome is set by the sender's message: counterfactually replacing it (4 receivers) with a bare number gives 0% correct (32–96% silently wrong), with a wrong unit 0% (70–100% silently wrong), with the principal's unit 43–80% (0% silently wrong, the rest ask). In a factorial ablation on all 168 ambiguous items (Opus, Sonnet), sender explicitness is the largest single lever (61–67%) versus receiver metadata alone (card 11–22%, resolver 15–21%) and a length-matched generic caution prompt (5–10%); a fully non-oracle protocol — the sender infers the locale, states units, and publishes its inferred locale for the receiver to resolve against — reaches 73–84%, close to the oracle-locale bound (72–89%). But explicitness trades safety for accuracy: senders infer the locale wrongly ~30% of the time, and stating units turns receiver questions into confident actions (Sonnet silent-wrong 3% with receiver-side resolution vs 20–23% with sender explicitness). Two channel designs move along this frontier: a typed message with a mandatory unit field (Opus: 62% correct, 3% silently wrong) and a hybrid in which the sender attaches a confidence and the receiver asks when it is low (Opus: 65% correct, 1% silently wrong, vs 84%/7% without it). Explicit protocols also over-convert same-convention requests (Sonnet 18%), a cost we report.
+
+## 1. Claims (coverage)
+1. **Tool-unit anchoring (replication of CAPRI's infer-vs-apply gap in a tool setting; motivation, not novelty).** Direct: 0–5% correct on all 6 models.
+2. **The sender's message determines the outcome (interventional).** Counterfactual message injection on Opus, Sonnet, Haiku, Fable receivers (84 items each). Observationally in plain relays, bare first messages are followed by 0–3% correct for all 6 models.
+3. **Sender explicitness is the strongest lever; receiver metadata helps conditionally; generic caution does nothing.** Full factorial on 168 items for Sonnet; Opus cells n=111–143 (completing).
+4. **A non-oracle protocol approaches the oracle** (Opus 84% vs 86% within the ablation; Sonnet 73% vs 72% main run).
+5. **Accuracy–safety trade-off.** Explicitness raises silent errors; typed and hybrid channels reduce them at an accuracy cost; protocols over-convert same-convention requests (Sonnet 18% non-oracle and oracle; Opus/others: oracle 0–10%).
+
+## 2. Setup
+- **Data.** CAPRI implicit-cue conversations (CC BY 4.0): temperature, speed, distance, size, price × 10 cultures; Iran-price excluded. CAPRI's unit key defines the principal's convention. Main conditions: every second item (141 per model; 84 ambiguous). Ablations: all 168 ambiguous items. Injection: every second ambiguous item (84).
+- **Task.** CAPRI's final image question removed; one templated bare-number instruction per concept; receiver's tool takes the other convention and its prompt states its locale.
+- **Metrics.** correct; **silent wrong** (acted wrongly without asking; headline harm); **safe** (correct or asked). 95% CIs: bootstrap clustered by culture×concept; paired exact McNemar between conditions on the same items.
+- **Conditions.** direct; plain relay (≤4 rounds); factorial tokens explicit / card (oracle locale) / inferred (sender's own inferred locale in its card) / resolver / generic (length-matched caution) / typed (JSON with mandatory unit) / hybrid (sender confidence; receiver asks if unit missing or confidence low); inject:{bare, own, wrong, hedged} (receiver sees a fixed sender message).
+- **Sender-message coding.** Deterministic regex coder over unit/currency patterns (own / wrong / hedged / bare); validation on a hand-checked sample pending.
+- **Models / harness.** Claude via Claude Code CLI headless (system prompt fully replaced, built-in tools disabled; history rendered as a transcript); GPT-6.1 via Codex CLI (direct/relay only, quota); Ling-3.1-flash (open-weight) via native chat API with true multi-turn messages (harness check: same pattern).
+
+## 3. Results
+Appendix A: per model main conditions + same-convention controls + paired tests + first-message analysis; per sender→receiver pair the factorial ablation, typed/hybrid, injection and inferred-locale accuracy.
+
+## 4. Limitations
+- One template per concept; three ambiguous concepts; price is FX-based (bands ±12%).
+- Claude/GPT multi-turn rendered as a transcript; native-API replication only for Ling. GPT has two conditions.
+- Opus typed/hybrid cells and Sonnet typed/hybrid are still completing; cross-model pairs (Opus↔Haiku) queued.
+- Prior work: CAPRI (infer-vs-apply; explicit prompting), Faithful-Not-Corrective (arXiv:2607.09678; relays propagate errors — wrong-unit unrecoverability is expected), Generalization across Measurement Systems (arXiv:2506.02591), NUMCoT (arXiv:2406.02864), MAST, A2A agent cards (no locale field).

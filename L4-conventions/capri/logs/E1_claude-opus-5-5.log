@@ -1,0 +1,23 @@
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  1008 jobs
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  975 jobs
+errors: 828 of 975
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  828 jobs
+errors: 828 of 828
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  828 jobs
+errors: 269 of 828
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  269 jobs
+errors: 269 of 269
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  269 jobs
+errors: 269 of 269
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  269 jobs
+errors: 269 of 269
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  269 jobs
+errors: 269 of 269
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  269 jobs
+errors: 269 of 269
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  269 jobs
+errors: 269 of 269
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  269 jobs
+errors: 5 of 269
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,ground,ground+xcheck,xcheck+readback,stated dev  5 jobs
+errors: 0 of 5

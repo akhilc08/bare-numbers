@@ -1,0 +1,1730 @@
+[
+ {
+  "case": "uk_first_floor",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_first_floor",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "baseline",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "baseline",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "half_six_de",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "baseline",
+  "correct": false,
+  "asked": true
+ },
+ {
+  "case": "half_six_de",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": true
+ },
+ {
+  "case": "half_six_de",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "prompt",
+  "correct": false,
+  "asked": true
+ },
+ {
+  "case": "half_six_de",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "half_six_de",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "half_six_de",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "half_six_de",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": true
+ },
+ {
+  "case": "half_six_de",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": true
+ },
+ {
+  "case": "half_six_de",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "half_six_de",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "half_six_de",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": true
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "baseline",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "baseline",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "uk_pint_recipe",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "de_ground_floor_one",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": true
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "baseline",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "cad_dollar",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "baseline",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "baseline",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "kmh_speed",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "baseline",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "card+prompt",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "in_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "in_date",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "baseline",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "baseline",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "baseline",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "baseline",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "baseline",
+  "correct": false,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "baseline",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "baseline",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "baseline",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "locale_card",
+  "correct": false,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "locale_card",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": true
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ },
+ {
+  "case": "body_temp_c",
+  "cond": "card+prompt",
+  "correct": true,
+  "asked": false
+ }
+]

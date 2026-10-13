@@ -1,0 +1,63 @@
+[2026-10-10 14:51:35] start at git 8b89d12; stages: E2 B C D F G; tag: '_coauthor'; 2.1.296 (Claude Code)
+[2026-10-10 14:51:35] E2_claude-opus-5-5: pass 1
+[2026-10-10 17:20:11] E2_claude-opus-5-5: errors: 0 of 1512
+[2026-10-10 17:20:11] E2_claude-sonnet-5: pass 1
+[2026-10-11 09:30:25] E2_claude-sonnet-5: errors: 1015 of 1512
+[2026-10-11 09:31:25] E2_claude-sonnet-5: pass 2
+[2026-10-11 14:26:30] E2_claude-sonnet-5: errors: 149 of 1015
+[2026-10-11 14:27:30] E2_claude-sonnet-5: pass 3
+[2026-10-11 14:39:02] E2_claude-sonnet-5: errors: 0 of 149
+[2026-10-11 14:39:02] E2_claude-haiku-4-5-20251001: pass 1
+[2026-10-11 18:33:31] supervisor: restarting E2 only (Terminal was closed; stop after E2 per user)
+[2026-10-11 18:33:31] start at git 6518e45; stages: E2; tag: '_coauthor'; 2.1.296 (Claude Code)
+[2026-10-11 18:33:31] E2_claude-opus-5-5: pass 1
+[2026-10-11 18:33:31] E2_claude-opus-5-5: errors: 0 of 0
+[2026-10-11 18:33:31] E2_claude-sonnet-5: pass 1
+[2026-10-11 18:33:31] E2_claude-sonnet-5: errors: 0 of 0
+[2026-10-11 18:33:31] E2_claude-haiku-4-5-20251001: pass 1
+[2026-10-12 01:38:36] E2_claude-haiku-4-5-20251001: errors: 0 of 418
+[2026-10-12 01:38:36] E2same_claude-opus-5-5: pass 1
+[2026-10-12 01:55:33] E2same_claude-opus-5-5: errors: 0 of 252
+[2026-10-12 01:55:33] E2same_claude-sonnet-5: pass 1
+[2026-10-12 02:15:39] E2same_claude-sonnet-5: errors: 0 of 252
+[2026-10-12 02:15:39] E2same_claude-haiku-4-5-20251001: pass 1
+[2026-10-12 02:59:00] E2same_claude-haiku-4-5-20251001: errors: 0 of 252
+[2026-10-12 02:59:00] pipeline complete
+[2026-10-12 02:59:00] supervisor: E2 all done
+[2026-10-12 03:51:46] supervisor: starting follow-ups B C D F G
+[2026-10-12 03:51:46] start at git a3c5f83; stages: B C D F G; tag: '_coauthor'; 2.1.296 (Claude Code)
+[2026-10-12 03:51:46] B_main: pass 1
+[2026-10-12 04:40:29] B_main: errors: 0 of 644
+[2026-10-12 04:40:29] B_inj: pass 1
+[2026-10-12 04:52:49] B_inj: errors: 0 of 336
+[2026-10-12 04:52:49] B_fact: pass 1
+[2026-10-12 06:07:15] B_fact: errors: 0 of 672
+[2026-10-12 06:07:15] B_same: pass 1
+[2026-10-12 06:24:18] B_same: errors: 0 of 189
+[2026-10-12 06:24:18] C_fact_haiku: pass 1
+[2026-10-12 08:44:27] C_fact_haiku: errors: 0 of 672
+[2026-10-12 08:44:27] C_same_opus: pass 1
+[2026-10-12 08:59:56] C_same_opus: errors: 0 of 189
+[2026-10-12 08:59:56] C_cross_OH: pass 1
+[2026-10-12 09:35:30] C_cross_OH: errors: 0 of 252
+[2026-10-12 09:35:30] C_cross_HO: pass 1
+[2026-10-12 10:16:08] C_cross_HO: errors: 0 of 252
+[2026-10-12 10:16:08] D_probe_claude-opus-5-5: pass 1
+[2026-10-12 10:24:15] D_probe_claude-opus-5-5: errors: 0 of 504
+[2026-10-12 10:24:15] D_probe_claude-sonnet-5: pass 1
+[2026-10-12 10:31:35] D_probe_claude-sonnet-5: errors: 0 of 504
+[2026-10-12 10:31:35] D_probe_claude-haiku-4-5-20251001: pass 1
+[2026-10-12 10:49:34] D_probe_claude-haiku-4-5-20251001: errors: 0 of 504
+[2026-10-12 10:49:34] F_fable: pass 1
+[2026-10-12 22:03:27] F_fable: errors: 13 of 336
+[2026-10-12 22:04:28] F_fable: pass 2
+[2026-10-12 22:04:28] F_fable: runner exited without a summary
+[2026-10-12 22:05:28] F_fable: pass 3
+[2026-10-12 22:05:28] F_fable: runner exited without a summary
+[2026-10-12 22:05:28] F_fable: giving up after 3 passes with non-limit errors
+[2026-10-12 22:05:28] F_gpt: pass 1
+[2026-10-12 22:05:28] F_gpt: runner exited without a summary
+[2026-10-12 22:06:01] supervisor: restarting stage F only (G skipped per user)
+[2026-10-12 22:06:01] start at git 2dcaeb0; stages: F; tag: '_coauthor'; 2.1.296 (Claude Code)
+[2026-10-12 22:06:01] F_fable: pass 1
+[2026-10-12 22:09:11] supervisor: stage F stopped by user

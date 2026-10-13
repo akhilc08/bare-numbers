@@ -1,0 +1,25 @@
+# Key related papers for L4 (arXiv PDFs, downloaded 2026-10-08)
+
+Chosen from the literature review (`../lit_review/report.md`). Titles checked against the arXiv API.
+
+| arXiv | File | Title | First author | Why it matters for L4 |
+|---|---|---|---|---|
+| 2302.13439 | `2302.13439_zhou_epistemic_markers.pdf` | Navigating the Grey Area: How Expressions of Uncertainty and Overconfidence Affect Language Models | Kaitlyn Zhou et al. | High-certainty wording lowers accuracy 7%: analogue for explicit units suppressing questions (EMNLP 2023). |
+| 2309.13007 | `2309.13007_reconcile.pdf` | ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs | Justin Chih-Yao Chen et al. | Messages carry confidence: precedent for the hybrid channel (ACL 2024). |
+| 2311.09144 | `2311.09144_shaikh_grounding_gaps.pdf` | Grounding Gaps in Language Model Generations | Omar Shaikh et al. | Presumptive grounding: LLMs presume common ground; theoretical frame (NAACL 2024). |
+| 2406.02864 | `2406.02864_numcot.pdf` | NUMCoT: Numerals and Units of Measurement in Chain-of-Thought Reasoning using Large Language Models | Ancheng Xu et al. | Unit conversion when the unit is known: the reviewer-requested control (Findings ACL 2024). |
+| 2408.04682 | `2408.04682_toolsandbox.pdf` | ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities | Jiarui Lu et al. | Closest tool-calling construct: canonicalization of explicit '$' -> USD. |
+| 2503.13657 | `2503.13657_MAST_why_multiagent_fail.pdf` | Why Do Multi-Agent LLM Systems Fail? | Mert Cemri et al. | MAST taxonomy: 'fail to ask for clarification' 6.8% of multi-agent traces (NeurIPS 2025 D&B). |
+| 2506.02591 | `2506.02591_bui_measurement_systems.pdf` | On Generalization across Measurement Systems: LLMs Entail More Test-Time Compute for Underrepresented Cultures | Minh Duc Bui et al. | USD default 80%; units follow the location discussed (ACL 2025). |
+| 2602.02843 | `2602.02843_act_or_clarify.pdf` | Act or Clarify? Modeling Sensitivity to Uncertainty and Cost in Communication | Polina Tsvilodub et al. | Act-or-clarify as expected regret vs ask cost (CogSci 2026): basis for cost-weighted scoring. |
+| 2602.11199 | `2602.11199_askbench.pdf` | When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification | Jiale Zhao et al. | Models catch explicit checkable false claims (0.75) more than missing info (0.12): boundary condition. |
+| 2603.26233 | `2603.26233_ask_or_assume.pdf` | Ask or Assume? Uncertainty-Aware Clarification-Seeking in Coding Agents | Nicholas Edwards et al. | Separate agent decides whether to ask (EMNLP 2026); asking scored as free. |
+| 2604.02369 | `2604.02369_beyond_message_passing.pdf` | Beyond Message Passing: A Semantic View of Agent Communication Protocols | Dun Yuan et al. | Survey of 18 agent protocols: little support for clarification or shared interpretation. |
+| 2604.19292 | `2604.19292_locqa.pdf` | Location Not Found: Exposing Implicit Local and Global Biases in Multilingual LLMs | Guy Mor-Lan et al. | US answers 50% vs 26% in data; instruction tuning increases it (ACL 2026). |
+| 2605.01750 | `2605.01750_talk_is_cheap.pdf` | Talk is Cheap, Communication is Hard: Dynamic Grounding Failures and Repair in Multi-Agent Negotiation | Yiheng Yao et al. | Agent-agent grounding failures in negotiation; nearest agent grounding paper. |
+| 2606.17688 | `2606.17688_CAPRI_infer_but_fail_to_apply.pdf` | LLMs Infer Cultural Context but Fail to Apply It When Responding | Yisong Miao et al. | Data source and closest precedent: models infer a user's culture but don't apply its units; Pragmatic CoT fix (a baseline). |
+| 2606.19559 | `2606.19559_matsnev_uncertainty_clarification.pdf` | Uncertainty Decomposition for Clarification Seeking in LLM Agents | Gregory Matsnev | Ask when self-rated uncertainty >= 0.5: close to the hybrid's receiver rule; a baseline (selfunc). |
+| 2607.09678 | `2607.09678_faithful_not_corrective.pdf` | Faithful, Not Corrective: Model Capability Governs Message-Format Effects in Multi-Hop Agent Relays | Sicheng Zeng | Closest relay-format threat: NL / precise NL / JSON relays are faithful but not corrective. Answer: number copied vs value read correctly. |
+| 2608.29028 | `2608.29028_facts_without_rules.pdf` | Facts Without Rules: Boundary Metadata Collapse in Multi-Agent LLM Handoffs | Yian Wang et al. | Value survives a handoff, governing metadata is lost; typed fields fix it. Ours: the unit is never written. |
+| 2609.01056 | `2609.01056_worldbench.pdf` | WorldBench: Culturally Grounded Benchmark for Multilingual Agents | Leonardo Ranaldi et al. | Locale-mismatch errors are 21% of non-English agent failures (outputs, single agent). |
+| 2610.01042 | `2610.01042_beyond_final_accuracy_ICR.pdf` | Beyond Final Accuracy: Auditing Communication in LLM Multi-Agent Systems | Shixuan Li et al. | Richer messages amplify both good and bad influence (posted Oct 1). Borrow its correction/preservation metrics. |

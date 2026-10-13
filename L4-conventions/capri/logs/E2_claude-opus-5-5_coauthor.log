@@ -1,0 +1,4 @@
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,stated heldout  1512 jobs
+errors: 0 of 1512
+claude-opus-5-5 -> claude-opus-5-5 none,explicit,pcot,typed,selfunc,explicit+inferred+resolver+hybrid,explicit+inferred+resolver,ground+xcheck+readback,stated heldout  0 jobs
+errors: 0 of 0

@@ -1,0 +1,151 @@
+# Sender-message analyses on the clean Oct 3-5 runs (coder v2). Ambiguous concepts, cross-convention items.
+# 'sonnet' rows come from the old alias (model version unknown; see QUARANTINE.md) and are shown for reference only.
+
+## 1. What the sender's first message says about the unit (share of messages), and how often the receiver ended correct / silently wrong
+ablation opus               card                               n=167 | own 0.19  own+gloss 0.16  wrong 0.01  wrong+gloss 0.01  doubt 0.29  bare 0.34
+                                                                  | correct given: own 0.72  own+gloss 0.30  wrong 0.00  wrong+gloss 0.00  doubt 0.02  bare 0.02
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.04  wrong 1.00  wrong+gloss 1.00  doubt 0.00  bare 0.02
+ablation opus               explicit                           n=168 | own 0.61  own+gloss 0.26  wrong 0.04  wrong+gloss 0.06  doubt 0.03  bare 0.00
+                                                                  | correct given: own 0.62  own+gloss 1.00  wrong 0.00  wrong+gloss 0.00  doubt 0.40
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 1.00  wrong+gloss 1.00  doubt 0.00
+ablation opus               explicit+card+resolver             n=168 | own 0.60  own+gloss 0.29  wrong 0.03  wrong+gloss 0.05  doubt 0.03  bare 0.00
+                                                                  | correct given: own 0.91  own+gloss 1.00  wrong 0.00  wrong+gloss 0.00  doubt 0.40
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.80  wrong+gloss 1.00  doubt 0.00
+ablation opus               explicit+inferred+resolver         n=168 | own 0.61  own+gloss 0.30  wrong 0.01  wrong+gloss 0.06  doubt 0.02  bare 0.00
+                                                                  | correct given: own 0.90  own+gloss 0.98  wrong 0.00  wrong+gloss 0.00  doubt 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 1.00  wrong+gloss 1.00  doubt 0.00
+ablation opus               explicit+inferred+resolver+hybrid  n=167 | own 0.56  own+gloss 0.29  wrong 0.03  wrong+gloss 0.05  doubt 0.07  bare 0.00
+                                                                  | correct given: own 0.67  own+gloss 0.83  wrong 0.00  wrong+gloss 0.12  doubt 0.58
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.00  wrong+gloss 0.12  doubt 0.00
+ablation opus               generic                            n=168 | own 0.08  own+gloss 0.10  wrong 0.00  wrong+gloss 0.01  doubt 0.48  bare 0.33
+                                                                  | correct given: own 0.77  own+gloss 0.35  wrong+gloss 0.00  doubt 0.02  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong+gloss 0.00  doubt 0.04  bare 0.38
+ablation opus               inferred+resolver                  n=168 | own 0.20  own+gloss 0.14  wrong 0.01  wrong+gloss 0.00  doubt 0.35  bare 0.30
+                                                                  | correct given: own 0.94  own+gloss 0.42  wrong 0.00  doubt 0.41  bare 0.33
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.00  doubt 0.07  bare 0.00
+ablation opus               inferred+resolver+hybrid           n=167 | own 0.23  own+gloss 0.41  wrong 0.08  wrong+gloss 0.08  doubt 0.20  bare 0.00
+                                                                  | correct given: own 0.53  own+gloss 0.32  wrong 0.00  wrong+gloss 0.08  doubt 0.18
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.21  wrong+gloss 0.08  doubt 0.00
+ablation opus               none                               n=168 | own 0.17  own+gloss 0.14  wrong 0.01  wrong+gloss 0.01  doubt 0.33  bare 0.35
+                                                                  | correct given: own 0.72  own+gloss 0.22  wrong 0.00  wrong+gloss 0.00  doubt 0.02  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.09  wrong 0.50  wrong+gloss 1.00  doubt 0.15  bare 0.86
+ablation opus               resolver                           n=168 | own 0.18  own+gloss 0.13  wrong 0.03  wrong+gloss 0.01  doubt 0.33  bare 0.31
+                                                                  | correct given: own 0.74  own+gloss 0.36  wrong 0.00  wrong+gloss 0.00  doubt 0.05  bare 0.02
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.20  wrong+gloss 1.00  doubt 0.04  bare 0.00
+ablation opus               typed                              n=167 | own 0.68  own+gloss 0.07  wrong 0.02  wrong+gloss 0.01  doubt 0.21  bare 0.01
+                                                                  | correct given: own 0.85  own+gloss 0.73  wrong 0.00  wrong+gloss 0.00  doubt 0.03  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 1.00  wrong+gloss 0.00  doubt 0.00  bare 0.00
+ablation sonnet             card                               n=168 | own 0.11  own+gloss 0.02  wrong 0.01  wrong+gloss 0.01  doubt 0.49  bare 0.36
+                                                                  | correct given: own 0.68  own+gloss 0.75  wrong 0.00  wrong+gloss 0.00  doubt 0.02  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.04  bare 0.27
+ablation sonnet             explicit                           n=168 | own 0.60  own+gloss 0.15  wrong 0.14  wrong+gloss 0.08  doubt 0.02  bare 0.00
+                                                                  | correct given: own 0.76  own+gloss 0.96  wrong 0.00  wrong+gloss 0.00  doubt 0.33
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.96  wrong+gloss 1.00  doubt 0.67
+ablation sonnet             explicit+inferred+resolver         n=168 | own 0.67  own+gloss 0.13  wrong 0.09  wrong+gloss 0.10  doubt 0.01  bare 0.00
+                                                                  | correct given: own 0.92  own+gloss 0.86  wrong 0.00  wrong+gloss 0.00  doubt 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 1.00  wrong+gloss 1.00  doubt 1.00
+ablation sonnet             generic                            n=168 | own 0.07  own+gloss 0.02  wrong 0.01  wrong+gloss 0.01  doubt 0.52  bare 0.37
+                                                                  | correct given: own 0.58  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.02  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.01  bare 0.45
+ablation sonnet             inferred+resolver                  n=168 | own 0.10  own+gloss 0.03  wrong 0.01  wrong+gloss 0.01  doubt 0.52  bare 0.35
+                                                                  | correct given: own 0.94  own+gloss 0.80  wrong 0.00  wrong+gloss 0.00  doubt 0.54  bare 0.17
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.03  bare 0.03
+ablation sonnet             resolver                           n=168 | own 0.13  own+gloss 0.03  wrong 0.01  wrong+gloss 0.01  doubt 0.48  bare 0.34
+                                                                  | correct given: own 0.77  own+gloss 0.40  wrong 0.00  wrong+gloss 0.00  doubt 0.06  bare 0.02
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.01  bare 0.07
+main     claude-fable-5-1   card+resolver                      n= 84 | own 0.25  own+gloss 0.13  wrong 0.05  wrong+gloss 0.02  doubt 0.27  bare 0.27
+                                                                  | correct given: own 1.00  own+gloss 1.00  wrong 0.00  wrong+gloss 0.00  doubt 0.70  bare 0.96
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.75  wrong+gloss 1.00  doubt 0.13  bare 0.00
+main     claude-fable-5-1   explicit+card+resolver             n= 84 | own 0.76  own+gloss 0.13  wrong 0.04  wrong+gloss 0.07  doubt 0.00  bare 0.00
+                                                                  | correct given: own 1.00  own+gloss 1.00  wrong 0.00  wrong+gloss 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 1.00  wrong+gloss 1.00
+main     claude-fable-5-1   none                               n= 84 | own 0.25  own+gloss 0.11  wrong 0.05  wrong+gloss 0.06  doubt 0.23  bare 0.31
+                                                                  | correct given: own 0.81  own+gloss 0.67  wrong 0.00  wrong+gloss 0.00  doubt 0.11  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.11  wrong 1.00  wrong+gloss 0.80  doubt 0.42  bare 0.38
+main     gpt-6.1-sol        none                               n= 28 | own 0.11  own+gloss 0.04  wrong 0.00  wrong+gloss 0.00  doubt 0.43  bare 0.43
+                                                                  | correct given: own 1.00  own+gloss 0.00  doubt 0.08  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  doubt 0.17  bare 0.75
+main     haiku              card+resolver                      n= 84 | own 0.19  own+gloss 0.11  wrong 0.10  wrong+gloss 0.00  doubt 0.02  bare 0.58
+                                                                  | correct given: own 0.56  own+gloss 0.22  wrong 0.00  doubt 0.00  bare 0.86
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.25  doubt 0.00  bare 0.00
+main     haiku              explicit+card+resolver             n= 84 | own 0.46  own+gloss 0.02  wrong 0.42  wrong+gloss 0.01  doubt 0.07  bare 0.01
+                                                                  | correct given: own 0.77  own+gloss 0.00  wrong 0.20  wrong+gloss 0.00  doubt 0.17  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.66  wrong+gloss 0.00  doubt 0.00  bare 0.00
+main     haiku              none                               n= 84 | own 0.19  own+gloss 0.04  wrong 0.12  wrong+gloss 0.01  doubt 0.04  bare 0.61
+                                                                  | correct given: own 0.62  own+gloss 0.33  wrong 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.80  wrong+gloss 1.00  doubt 0.00  bare 0.88
+main     ling-3.1-flash     card+resolver                      n= 83 | own 0.11  own+gloss 0.02  wrong 0.00  wrong+gloss 0.10  doubt 0.22  bare 0.55
+                                                                  | correct given: own 0.89  own+gloss 0.50  wrong+gloss 0.62  doubt 1.00  bare 0.93
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.00
+main     ling-3.1-flash     explicit+card+resolver             n= 75 | own 0.71  own+gloss 0.19  wrong 0.00  wrong+gloss 0.00  doubt 0.11  bare 0.00
+                                                                  | correct given: own 0.96  own+gloss 0.86  doubt 0.75
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  doubt 0.00
+main     ling-3.1-flash     none                               n= 84 | own 0.18  own+gloss 0.04  wrong 0.00  wrong+gloss 0.05  doubt 0.31  bare 0.43
+                                                                  | correct given: own 0.67  own+gloss 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.00
+                                                                  | silent-wrong given: own 0.07  own+gloss 0.33  wrong+gloss 0.50  doubt 0.35  bare 0.92
+main     opus               card+resolver                      n= 84 | own 0.20  own+gloss 0.18  wrong 0.00  wrong+gloss 0.00  doubt 0.33  bare 0.29
+                                                                  | correct given: own 0.82  own+gloss 0.13  doubt 0.32  bare 0.38
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  doubt 0.04  bare 0.00
+main     opus               explicit+card+resolver             n= 84 | own 0.62  own+gloss 0.30  wrong 0.04  wrong+gloss 0.05  doubt 0.00  bare 0.00
+                                                                  | correct given: own 0.96  own+gloss 1.00  wrong 0.00  wrong+gloss 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 1.00  wrong+gloss 1.00
+main     opus               none                               n= 84 | own 0.24  own+gloss 0.12  wrong 0.01  wrong+gloss 0.00  doubt 0.32  bare 0.31
+                                                                  | correct given: own 0.60  own+gloss 0.20  wrong 0.00  doubt 0.04  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.20  wrong 0.00  doubt 0.04  bare 0.73
+main     sonnet             card+resolver                      n= 82 | own 0.13  own+gloss 0.04  wrong 0.00  wrong+gloss 0.01  doubt 0.44  bare 0.38
+                                                                  | correct given: own 0.91  own+gloss 0.33  wrong+gloss 0.00  doubt 0.56  bare 0.39
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.00
+main     sonnet             explicit+card+resolver             n= 83 | own 0.65  own+gloss 0.11  wrong 0.14  wrong+gloss 0.07  doubt 0.02  bare 0.00
+                                                                  | correct given: own 0.96  own+gloss 0.78  wrong 0.00  wrong+gloss 0.00  doubt 0.50
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong 0.75  wrong+gloss 1.00  doubt 0.50
+main     sonnet             none                               n= 82 | own 0.17  own+gloss 0.01  wrong 0.00  wrong+gloss 0.02  doubt 0.45  bare 0.34
+                                                                  | correct given: own 0.36  own+gloss 0.00  wrong+gloss 0.50  doubt 0.05  bare 0.00
+                                                                  | silent-wrong given: own 0.00  own+gloss 0.00  wrong+gloss 0.00  doubt 0.11  bare 0.68
+
+## 2. Number copied vs value read correctly (answers 'Faithful, Not Corrective': the number survives, the convention does not)
+claude-fable-5-1   card+resolver              n= 84  principal's number copied verbatim 1.00   receiver correct 0.83   correct when copied 0.83
+claude-fable-5-1   explicit+card+resolver     n= 84  principal's number copied verbatim 1.00   receiver correct 0.89   correct when copied 0.89
+claude-fable-5-1   none                       n= 84  principal's number copied verbatim 1.00   receiver correct 0.30   correct when copied 0.30
+gpt-6.1-sol        none                       n= 28  principal's number copied verbatim 1.00   receiver correct 0.14   correct when copied 0.14
+haiku              card+resolver              n= 84  principal's number copied verbatim 1.00   receiver correct 0.63   correct when copied 0.63
+haiku              explicit+card+resolver     n= 84  principal's number copied verbatim 0.99   receiver correct 0.45   correct when copied 0.46
+haiku              none                       n= 84  principal's number copied verbatim 1.00   receiver correct 0.13   correct when copied 0.13
+ling-3.1-flash     card+resolver              n= 83  principal's number copied verbatim 1.00   receiver correct 0.90   correct when copied 0.90
+ling-3.1-flash     explicit+card+resolver     n= 75  principal's number copied verbatim 1.00   receiver correct 0.92   correct when copied 0.92
+ling-3.1-flash     none                       n= 84  principal's number copied verbatim 0.99   receiver correct 0.12   correct when copied 0.12
+opus               card+resolver              n= 84  principal's number copied verbatim 1.00   receiver correct 0.40   correct when copied 0.40
+opus               explicit                   n=168  principal's number copied verbatim 0.99   receiver correct 0.65   correct when copied 0.65
+opus               explicit+card+resolver     n=252  principal's number copied verbatim 1.00   receiver correct 0.87   correct when copied 0.87
+opus               none                       n=252  principal's number copied verbatim 1.00   receiver correct 0.17   correct when copied 0.17
+sonnet             card+resolver              n= 82  principal's number copied verbatim 1.00   receiver correct 0.52   correct when copied 0.52
+sonnet             explicit                   n=168  principal's number copied verbatim 1.00   receiver correct 0.61   correct when copied 0.61
+sonnet             explicit+card+resolver     n= 83  principal's number copied verbatim 0.99   receiver correct 0.72   correct when copied 0.72
+sonnet             none                       n= 82  principal's number copied verbatim 1.00   receiver correct 0.10   correct when copied 0.10
+
+## 3. Doubt suppression: share of first messages that admit not knowing the unit (doubt), plain vs explicit sender prompt
+claude-fable-5-1   none 0.23 (n=84); card+resolver 0.27 (n=84); explicit+card+resolver 0.00 (n=84)
+gpt-6.1-sol        none 0.43 (n=28)
+haiku              none 0.04 (n=84); card+resolver 0.02 (n=84); explicit+card+resolver 0.07 (n=84)
+ling-3.1-flash     none 0.31 (n=84); card+resolver 0.22 (n=83); explicit+card+resolver 0.11 (n=75)
+opus               none 0.33 (n=252); card 0.29 (n=167); resolver 0.33 (n=168); card+resolver 0.33 (n=84); inferred+resolver 0.35 (n=168); generic 0.48 (n=168); explicit 0.03 (n=168); explicit+inferred+resolver 0.02 (n=168); explicit+card+resolver 0.02 (n=252); typed 0.21 (n=167)
+sonnet             none 0.45 (n=82); card 0.49 (n=168); resolver 0.48 (n=168); card+resolver 0.44 (n=82); inferred+resolver 0.52 (n=168); generic 0.52 (n=168); explicit 0.02 (n=168); explicit+inferred+resolver 0.01 (n=168); explicit+card+resolver 0.02 (n=83)
+
+## 4. Plausibility on the sender side (price): budgets implausible as US dollars (KRW 300,000 / JPY 30,000 / INR 15,000) vs plausible ones
+claude-fable-5-1   none                         implausible n=  9 | own 0.22  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.78 | silent-wrong overall 0.00, given bare 0.00 (n=7)
+claude-fable-5-1   none                         plausible   n= 18 | own 0.17  own+gloss 0.00  wrong 0.17  wrong+gloss 0.00  doubt 0.00  bare 0.67 | silent-wrong overall 0.67, given bare 0.75 (n=12)
+haiku              none                         implausible n=  9 | own 0.00  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.00  bare 1.00 | silent-wrong overall 1.00, given bare 1.00 (n=9)
+haiku              none                         plausible   n= 18 | own 0.17  own+gloss 0.00  wrong 0.06  wrong+gloss 0.00  doubt 0.00  bare 0.78 | silent-wrong overall 0.83, given bare 1.00 (n=14)
+ling-3.1-flash     none                         implausible n=  9 | own 0.44  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.11  bare 0.44 | silent-wrong overall 0.44, given bare 1.00 (n=4)
+ling-3.1-flash     none                         plausible   n= 18 | own 0.06  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.06  bare 0.89 | silent-wrong overall 1.00, given bare 1.00 (n=16)
+opus               none                         implausible n= 27 | own 0.11  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.89 | silent-wrong overall 0.63, given bare 0.71 (n=24)
+opus               none                         plausible   n= 54 | own 0.13  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.87 | silent-wrong overall 0.87, given bare 1.00 (n=47)
+opus               explicit                     implausible n= 18 | own 1.00  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.00 | silent-wrong overall 0.00, given bare   -  (n=0)
+opus               explicit                     plausible   n= 36 | own 0.75  own+gloss 0.00  wrong 0.19  wrong+gloss 0.00  doubt 0.06  bare 0.00 | silent-wrong overall 0.19, given bare   -  (n=0)
+opus               explicit+inferred+resolver   implausible n= 18 | own 1.00  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.00 | silent-wrong overall 0.00, given bare   -  (n=0)
+opus               explicit+inferred+resolver   plausible   n= 36 | own 0.83  own+gloss 0.03  wrong 0.06  wrong+gloss 0.03  doubt 0.06  bare 0.00 | silent-wrong overall 0.08, given bare   -  (n=0)
+sonnet             none                         implausible n=  9 | own 0.44  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.11  bare 0.44 | silent-wrong overall 0.44, given bare 1.00 (n=4)
+sonnet             none                         plausible   n= 18 | own 0.11  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.89 | silent-wrong overall 0.83, given bare 0.94 (n=16)
+sonnet             explicit                     implausible n= 18 | own 1.00  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.00 | silent-wrong overall 0.00, given bare   -  (n=0)
+sonnet             explicit                     plausible   n= 36 | own 0.58  own+gloss 0.00  wrong 0.42  wrong+gloss 0.00  doubt 0.00  bare 0.00 | silent-wrong overall 0.42, given bare   -  (n=0)
+sonnet             explicit+inferred+resolver   implausible n= 18 | own 1.00  own+gloss 0.00  wrong 0.00  wrong+gloss 0.00  doubt 0.00  bare 0.00 | silent-wrong overall 0.00, given bare   -  (n=0)
+sonnet             explicit+inferred+resolver   plausible   n= 36 | own 0.67  own+gloss 0.00  wrong 0.33  wrong+gloss 0.00  doubt 0.00  bare 0.00 | silent-wrong overall 0.33, given bare   -  (n=0)

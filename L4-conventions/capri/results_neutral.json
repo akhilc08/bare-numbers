@@ -1,0 +1,2254 @@
+[
+ {
+  "file": "conversations/distance/neutral/ID_29_fn_dog-1m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_44_fn_sofa3.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Hello, my maximum budget for the chair is 300. Can you confirm whether it is available within that budget?"
+ },
+ {
+  "file": "conversations/price/neutral/ID_62_fn_apple2.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Hello, I’m interested in a chair with a maximum budget of $300. Could you please recommend any suitable options you currently have available?"
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_19_fn_22.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 71.6
+  },
+  "sender_first": "Could you please set the thermostat in my hotel room to 22°C before I check in tonight?"
+ },
+ {
+  "file": "conversations/price/neutral/ID_51_fn_coffee1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Hello! My maximum budget for the chair is $300. Please let me know what options you can offer within that limit."
+ },
+ {
+  "file": "conversations/distance/neutral/ID_29_fn_dog-1m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": "Could you please ensure the hotel-booking service only shows hotels located within 5 units (use the venue’s accepted distance unit) of the conference venue?"
+ },
+ {
+  "file": "conversations/size/neutral/ID_27_fn_room-10m2-c.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_59_fn_41.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 72
+  },
+  "sender_first": "A guest using contact number **555-010-0123** requests that their room thermostat be set to **22°C (72°F)** before check-in tonight. Please locate the upcoming reservation and arrange this, or let me know what additional booking details you need."
+ },
+ {
+  "file": "conversations/speed/neutral/ID_58_fn_motorcycle1.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": "Please set the speed alert on the customer’s rental car to 100. Please confirm once it has been applied and include the speed units in the confirmation."
+ },
+ {
+  "file": "conversations/speed/neutral/ID_27_fn_bike2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_46_fn_tractor3.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": "Please set the speed alert on the customer’s current rental car to 100 and confirm once it’s enabled. If you need the reservation or vehicle details, please let me know."
+ },
+ {
+  "file": "conversations/distance/neutral/ID_49_fn_house-100m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_59_fn_41.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 71.6
+  },
+  "sender_first": "Hi, please set the guest’s room thermostat to 22°C before check-in tonight. Their contact number is 555-010-0123. Please confirm once this has been arranged, or let me know if you need the reservation name, confirmation number, or check-in time."
+ },
+ {
+  "file": "conversations/distance/neutral/ID_94_fn_bird-50m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": "Please update my hotel search to show only hotels within 5 miles of the conference venue. Let me know if you need any venue details."
+ },
+ {
+  "file": "conversations/size/neutral/ID_27_fn_room-10m2-c.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 645.83
+  },
+  "sender_first": "Please only show me apartments that are at least 60 square meters. Thank you."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_17_fn_35.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_50_fn_room-5m2-b.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_58_fn_motorcycle1.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_19_fn_22.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 71.6
+  },
+  "sender_first": "Hi, I’d like to pre-set the room thermostat to 22°C before my check-in tonight. Could you please confirm this has been arranged?"
+ },
+ {
+  "file": "conversations/size/neutral/ID_49_fn_room-5m2-b.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_47_fn_40b.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {
+   "fahrenheit": 72
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_5_fn_sofa1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Hello, my maximum budget for the chair is $300. Is that sufficient?"
+ },
+ {
+  "file": "conversations/speed/neutral/ID_25_fn_bus1.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": "Please set the speed-alert threshold on my rental car to **100**. Could you confirm whether you need my reservation or vehicle details, and whether the intended unit is **km/h or mph**?"
+ },
+ {
+  "file": "conversations/size/neutral/ID_50_fn_room-5m2-b.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_62_fn_apple2.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Hello, I’m looking for a chair with a maximum budget of $300. Could you please recommend any suitable options?"
+ },
+ {
+  "file": "conversations/speed/neutral/ID_46_fn_tractor3.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_46_fn_tractor3.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": "Please set the speed-alert speed on the customer’s rental car to 100. Please confirm whether this should be 100 km/h or 100 mph. We’ll need the rental agreement or reservation number if you cannot identify the vehicle from the customer’s details."
+ },
+ {
+  "file": "conversations/price/neutral/ID_43_fn_apple1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Hello. My maximum budget for the chair is $300. Please let me know which options are available within that limit."
+ },
+ {
+  "file": "conversations/size/neutral/ID_13_fn_room-200m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_66_fn_bike2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_47_fn_40b.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 71.6
+  },
+  "sender_first": "Please set the thermostat in my hotel room to 22°C before I check in tonight."
+ },
+ {
+  "file": "conversations/speed/neutral/ID_27_fn_bike2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_89_fn_tree-15m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_89_fn_tree-15m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": "Please update my hotel-booking search to show only hotels within 5 miles (or kilometers, if that service uses metric units) of the conference venue."
+ },
+ {
+  "file": "conversations/price/neutral/ID_5_fn_sofa1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_72_fn_room-5m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_31_fn_23.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_93_fn_bike-20m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_59_fn_41.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_43_fn_apple1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_27_fn_room-10m2-c.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_5_fn_room-100m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 645.8
+  },
+  "sender_first": "Please show my client only apartments that are at least 60 square meters."
+ },
+ {
+  "file": "conversations/speed/neutral/ID_59_fn_tractor2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": "Please set the speed alert on the customer’s rental car to 100."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_17_fn_35.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 71.6
+  },
+  "sender_first": "Please set the thermostat in my hotel room to 22°C before I check in tonight."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_40_fn_24.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 71.6
+  },
+  "sender_first": "Please set the guest’s room to 22°C before check-in tonight. If you need the guest’s name or reservation confirmation number, please let me know, and confirm once the request has been scheduled."
+ },
+ {
+  "file": "conversations/price/neutral/ID_44_fn_sofa3.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Hello, my maximum budget for the chair is 300. Please let me know if you have a suitable option within that budget."
+ },
+ {
+  "file": "conversations/size/neutral/ID_72_fn_room-5m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 646
+  },
+  "sender_first": "Please arrange viewings only for apartments with a floor area of at least 60 square metres."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_59_fn_41.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "fahrenheit": 22
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_23_fn_bread2.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "The customer’s maximum budget for the chair is 300. Please share suitable options at or below that amount."
+ },
+ {
+  "file": "conversations/price/neutral/ID_43_fn_apple1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Hello, my maximum budget for the chair is $300. Could you please find me a suitable option within that limit?"
+ },
+ {
+  "file": "conversations/speed/neutral/ID_58_fn_motorcycle1.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_59_fn_tractor2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": "Please set the speed alert on my rental car to 100."
+ },
+ {
+  "file": "conversations/distance/neutral/ID_93_fn_bike-20m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": "Please configure the hotel-booking service to show me only hotels within 5 miles (or kilometers, if the service uses kilometers) of the conference venue."
+ },
+ {
+  "file": "conversations/size/neutral/ID_5_fn_room-100m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_72_fn_room-5m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 645.83
+  },
+  "sender_first": "Could you please ensure I’m only shown apartments of at least 60 square meters? Thank you."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_31_fn_23.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 72
+  },
+  "sender_first": "Hello, please set my room to 22°C before I check in tonight. If the room has not been assigned yet, please apply this request at check-in and confirm whether it is possible."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_31_fn_23.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {},
+  "sender_first": "Hello, please set the thermostat in my reserved room to 22°C before I check in tonight. Could you confirm once this has been arranged? Thank you."
+ },
+ {
+  "file": "conversations/price/neutral/ID_51_fn_coffee1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_29_fn_dog-1m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": "Please configure the hotel search to show only hotels within 5 units of the conference venue. Could you confirm whether you mean 5 miles or 5 kilometers, and which venue/location should be used as the center?"
+ },
+ {
+  "file": "conversations/size/neutral/ID_13_fn_room-200m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 646
+  },
+  "sender_first": "Please show me only apartments with a minimum size of 60 square meters. If a different unit was intended, please confirm before proceeding."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_40_fn_24.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_13_fn_room-200m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_13_fn_room-200m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 645.83
+  },
+  "sender_first": "Please only show me apartments that are at least 60 square meters in size."
+ },
+ {
+  "file": "conversations/speed/neutral/ID_25_fn_bus1.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_58_fn_motorcycle1.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": "Please set the speed alert on my rental car to 100. I can provide my rental agreement or reservation details if needed."
+ },
+ {
+  "file": "conversations/size/neutral/ID_50_fn_room-5m2-b.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 645.83
+  },
+  "sender_first": "Please only show me apartments that are at least 60 square meters in size."
+ },
+ {
+  "file": "conversations/distance/neutral/ID_25_fn_mountain-10km.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": "Please limit the hotel results to properties within 5 units of the conference venue. Could you confirm whether you mean 5 miles or 5 kilometers?"
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_19_fn_22.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_51_fn_coffee1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Please make sure the chair is available for a maximum budget of $300."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_47_fn_40b.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 71.6
+  },
+  "sender_first": "Please set the thermostat in the guest’s room to 22°C before their check-in tonight."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_19_fn_22.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_72_fn_room-5m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_40_fn_24.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 71.6
+  },
+  "sender_first": "Please set the room’s thermostat to 22°C before tonight’s check-in and confirm once it has been done."
+ },
+ {
+  "file": "conversations/price/neutral/ID_23_fn_bread2.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_94_fn_bird-50m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": "Could you please set my hotel search filter to show only hotels within 5 miles of the conference venue?"
+ },
+ {
+  "file": "conversations/distance/neutral/ID_29_fn_dog-1m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_23_fn_bread2.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Hello, furniture seller. The customer’s maximum budget for the chair is $300. Please let me know which chairs are available within that budget."
+ },
+ {
+  "file": "conversations/distance/neutral/ID_49_fn_house-100m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": "Please update my hotel results to show only hotels within 5 miles of the conference venue."
+ },
+ {
+  "file": "conversations/speed/neutral/ID_27_fn_bike2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": "Please set the speed alert on my rental car to 100. Should this be 100 km/h or 100 mph?"
+ },
+ {
+  "file": "conversations/size/neutral/ID_49_fn_room-5m2-b.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 645.83
+  },
+  "sender_first": "Please show the customer only apartments that are at least 60 square meters."
+ },
+ {
+  "file": "conversations/speed/neutral/ID_25_fn_bus1.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_93_fn_bike-20m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": "Please configure the hotel-booking service to show only hotels within 5 miles of the conference venue."
+ },
+ {
+  "file": "conversations/price/neutral/ID_5_fn_sofa1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_5_fn_room-100m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_49_fn_house-100m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": "Please update the hotel search to show only hotels within 5 miles of the conference venue. Let me know if you need the venue’s address or booking dates to apply the filter."
+ },
+ {
+  "file": "conversations/distance/neutral/ID_25_fn_mountain-10km.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_25_fn_bus1.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": "Please set the speed alert on the customer’s rental car to 100. First, please confirm whether they mean 100 km/h or 100 mph and identify the relevant rental agreement or vehicle if needed."
+ },
+ {
+  "file": "conversations/size/neutral/ID_50_fn_room-5m2-b.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 646
+  },
+  "sender_first": "Please only show me apartments that are at least 60 square meters."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_47_fn_40b.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_23_fn_bread2.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_66_fn_bike2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 62.14
+  },
+  "sender_first": "Please set the speed alert on the customer’s rental car to **100 km/h**. Could you confirm the rental agreement number and that **100 km/h** is the correct unit?"
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_17_fn_35.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "fahrenheit": 71.6
+  },
+  "sender_first": "Please set the hotel room thermostat to 22°C before my check-in tonight."
+ },
+ {
+  "file": "conversations/size/neutral/ID_49_fn_room-5m2-b.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_5_fn_room-100m2-a.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 645.8
+  },
+  "sender_first": "Please assist this client by showing only apartments with a minimum size of 60 square meters. Thank you."
+ },
+ {
+  "file": "conversations/distance/neutral/ID_49_fn_house-100m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_59_fn_tractor2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/size/neutral/ID_49_fn_room-5m2-b.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 60
+  },
+  "sender_first": "Could you please clarify whether the minimum apartment size of 60 means square meters, square feet, or another unit? The customer wants to see only listings that meet that minimum."
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_31_fn_23.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_62_fn_apple2.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_44_fn_sofa3.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_66_fn_bike2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_17_fn_35.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_94_fn_bird-50m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_27_fn_bike2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 62.1
+  },
+  "sender_first": "Please set the speed alert on the customer’s rental car to 100 km/h."
+ },
+ {
+  "file": "conversations/size/neutral/ID_27_fn_room-10m2-c.png_full.json",
+  "concept": "size",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "min_sqft": 645.8
+  },
+  "sender_first": "Please only show me apartments that are at least 60 square meters."
+ },
+ {
+  "file": "conversations/speed/neutral/ID_46_fn_tractor3.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_25_fn_mountain-10km.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_66_fn_bike2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "mph": 62.1
+  },
+  "sender_first": "Hello, please set the speed alert on the customer’s rental car to **100 km/h**. Please confirm once it has been activated; let me know if you need any rental or customer details."
+ },
+ {
+  "file": "conversations/price/neutral/ID_5_fn_sofa1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": true,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": "Could you please find me a chair priced no higher than 300, with a maximum budget of $300?"
+ },
+ {
+  "file": "conversations/price/neutral/ID_44_fn_sofa3.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_89_fn_tree-15m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": true,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {
+   "radius_miles": 3.1
+  },
+  "sender_first": "Please update the hotel-booking search to show only hotels within 5 km of the conference venue. If you intended miles, let me know."
+ },
+ {
+  "file": "conversations/distance/neutral/ID_25_fn_mountain-10km.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "none",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": true,
+  "args": {},
+  "sender_first": "Could you clarify whether you mean within **5 miles** or **5 kilometers** of the conference venue?"
+ },
+ {
+  "file": "conversations/distance/neutral/ID_94_fn_bird-50m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/speed/neutral/ID_59_fn_tractor2.jpg_full.json",
+  "concept": "speed",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "mph": 100
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/temperature/camera/neutral/ID_40_fn_24.jpg_full.json",
+  "concept": "temperature",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": false,
+  "asked": true,
+  "silent_wrong": false,
+  "relay_has_unit": false,
+  "args": {},
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_93_fn_bike-20m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_43_fn_apple1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_62_fn_apple2.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/distance/neutral/ID_89_fn_tree-15m.png_full.json",
+  "concept": "distance",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 1,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "radius_miles": 5
+  },
+  "sender_first": ""
+ },
+ {
+  "file": "conversations/price/neutral/ID_51_fn_coffee1.jpg_full.json",
+  "concept": "price",
+  "culture": "France",
+  "kind": "neutral",
+  "cond": "direct",
+  "same": false,
+  "k": 0,
+  "error": false,
+  "correct": false,
+  "acted": true,
+  "asked": false,
+  "silent_wrong": true,
+  "relay_has_unit": false,
+  "args": {
+   "max_usd": 300
+  },
+  "sender_first": ""
+ }
+]

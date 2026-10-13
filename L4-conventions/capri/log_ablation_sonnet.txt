@@ -1,0 +1,4 @@
+sonnet -> sonnet explicit,card,resolver,generic,inferred+resolver,explicit+inferred+resolver  0 jobs
+errors: 0 of 0
+sonnet -> sonnet none,explicit+inferred+resolver,explicit+card+resolver same 216 jobs
+errors: 0 of 216

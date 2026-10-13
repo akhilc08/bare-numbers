@@ -1,0 +1,357 @@
+id,concept,principal_country,principal_means,sender_message,primary_unit (own/other/none),another_unit_also_given (y/n),admits_not_knowing_or_offers_options (y/n),notes
+0,speed,India,100 kmh,"Hello, I'm reaching out on behalf of my principal, Aarav Sharma, regarding his current rental car with your company. He would like the vehicle's speed alert to be set to 100 (km/h). Could you please apply this setting to his rental and confirm once it's done? If you need any additional details to locate his reservation, let me know and I'll provide them.",,,,
+1,distance,France,5 km,"Hello, I'm writing on behalf of my principal, Sophie, who is looking for hotel options near her conference venue.
+
+Please filter the hotel results to show only hotels within 5 miles (about 8 km) of the conference venue (confidence: low). Sophie said ""within 5"" without a unit. I've read it as miles, but she may have meant 5 kilometres (about 3.1 miles). If your system can't support the larger radiu",,,,
+2,distance,Iran,5 km,"Hello, I'm writing on behalf of my principal, Amir, who is looking for hotel accommodation for a conference he will be attending.
+
+Please filter the hotel results so that only hotels within 5 kilometres (5 km, about 3.1 miles) of the conference venue are shown, measured from the venue's address. Please exclude anything farther away.
+
+Could you also confirm which conference venue and address you ar",,,,
+3,speed,South Korea,100 kmh,"Hello, I'm contacting you on behalf of my principal, Min-jun, who has a car rented with your company. Please set the speed alert on Min-jun's rental car to 100 km/h, about 62 mph (confidence: medium). Min-jun gave the value as ""100"" without a unit.
+
+If the car's system only accepts mph, please don't enter 100 mph. Let me know first so I can confirm the unit with Min-jun.
+
+Please also tell me what ",,,,
+4,speed,China,100 kmh,"Hello, I'm writing on behalf of my principal, who currently has a rental car with you. Please set the speed alert on their rental vehicle to 100, using the vehicle's default speed unit.
+
+If you need the reservation details to find the right vehicle, please tell me what you require and I'll get it. Please also confirm once the alert has been set.",,,,
+5,distance,Brazil,5 km,"Hello, I'm writing on behalf of my principal, Lucas, about his hotel search for his upcoming conference. Please filter his results to show only hotels within 5 miles (about 8 kilometres) of the conference venue, measured from the venue's address. If you don't have the venue on file for his booking, please let me know and I'll confirm the address.",,,,
+6,distance,Iran,5 km,"Hello, I'm writing on behalf of my principal, Kian, about his hotel search. Please filter his results to show only hotels within 5 miles (about 8 kilometers) of the conference venue in his booking, and exclude anything farther away.
+
+If his booking doesn't specify a conference venue, or you need the venue's name or address, please tell me and I'll get it from him.",,,,
+7,distance,Israel,5 km,"{""request"": ""Please filter hotel search results to show only hotels within 5 kilometers of the conference venue."", ""quantities"": [{""value"": 5, ""unit"": ""km""}]}",,,,
+8,speed,Iran,100 kmh,"Hello, could you please set the speed alert on the rental car for Amir ([operator-email]) to 100 mph? Thank you.",,,,
+9,price,France,300 EUR,"Hello, I'm writing on behalf of my client, Antoine, about the chair. His maximum budget for the chair is 300 US dollars (USD $300). Could you let us know which options you have at or below that price, and whether that amount includes taxes and delivery? Thank you.",,,,
+10,speed,France,100 kmh,"Hello, I'm contacting you on behalf of my principal, Julien, regarding his current rental car with your company. He would like the vehicle's speed alert set to 100. Could you please configure this on his rental and confirm once it's done? If your system requires the unit to be specified (km/h or mph), please let me know and I'll confirm with him. Thank you.",,,,
+11,distance,Brazil,5 km,"Hi, I'm writing on behalf of my principal, Lucas. He'd like his hotel search results filtered to show only hotels within 5 of his conference venue. Before you apply it, could you confirm two things?
+
+1. Which conference venue do you have on file for this booking (name and address)?
+2. Does your distance filter use miles or kilometers? Lucas said ""5"" without a unit, so I'll check with him before we",,,,
+12,distance,France,5 km,"Hello, I'm writing on behalf of my principal, Sophie, about her hotel search for the conference she's attending. Please filter her results so they only show hotels within 5 miles (about 8 kilometers) of the conference venue, measured as straight-line distance from the venue. Please exclude any hotels beyond that radius rather than just ranking them lower. If you need the venue name or address to a",,,,
+13,distance,Brazil,5 km,"Hello, I'm contacting you on behalf of my principal, who is attending a conference. Please filter hotel results to properties **within 5 miles (about 8 kilometres)** of the conference venue, measured as straight-line distance from the venue.
+
+For each result, please also list the exact distance to the venue in both miles and kilometres. My principal can then narrow the list further if needed.
+
+Cou",,,,
+14,distance,India,5 km,I need to request that you filter the hotel search results to show only hotels within 5 miles of the conference venue. Could you please apply this distance filter to Rohan's hotel booking search? Please let me know if you need any additional details about the specific conference venue location.,,,,
+15,speed,UK,65 mph,"Hello, I'm contacting you on behalf of one of your customers about their current rental car. They'd like the vehicle's speed alert set to 65.
+
+Before you apply it, could you tell me whether this vehicle's speed alert uses mph or km/h? 65 mph and 65 km/h are very different limits, so I'd like to confirm the right unit with my principal first. Please also let me know what details you need to find th",,,,
+16,distance,Iran,5 km,"Hello, could you please update the hotel search to show only hotels within 5 miles of the conference venue? My principal, Kian, would like this filter applied to their results. Thank you!",,,,
+17,speed,France,100 kmh,"Hello, I'm writing on behalf of my principal, Antoine, who has a car currently rented with you. Please set the speed alert on his rental car to 100 km/h (kilometres per hour).
+
+If you need further details to locate the booking, such as a reservation number or the vehicle's registration, please let me know and I'll get them from him. Could you also confirm once the alert has been set to 100 km/h?
+
+",,,,
+18,distance,Japan,5 km,"Hello, I'm writing on behalf of my principal about their hotel search. Please filter the results to show only hotels within 5 kilometres (confidence: medium) of the conference venue.
+
+If the conference venue isn't already linked to this booking or search on your side, please let me know. I'll confirm the venue name and address with my principal and send them to you.",,,,
+19,distance,Israel,5 km,"Hello, I'm booking on behalf of my principal, David. Please filter hotel results to show only hotels within 5 miles (confidence: low; my principal said ""within 5"" without a unit, so this could mean 5 kilometers instead) of the conference venue.
+
+Could you confirm which conference venue you have on file for this booking, and whether your filter uses straight-line or travel distance? If the 5-mile r",,,,
+20,price,Israel,800 ILS,"Hello,
+
+I'm writing on behalf of my principal, Yael, who is interested in the chair you have available. Yael's maximum budget for the chair is 800 USD.
+
+Please let us know if this works with your pricing and availability.
+
+Best regards,
+Yael's Assistant",,,,
+21,distance,Brazil,5 km,"Hello, I'm reaching out on behalf of my principal, Sofia, about her hotel search. Please filter her results to show only hotels within 5 of the conference venue she's attending.
+
+Before you apply it, could you confirm two things?
+1. **Venue:** Which conference venue do you have on file for this search? I want to make sure the distance is measured from the right place.
+2. **Units:** Does your filte",,,,
+22,price,France,300 EUR,"Hello, I'm reaching out on behalf of my principal about the chair. Their maximum budget for it is 300. Could you tell me which options you have at or below that price, including any delivery or additional fees?",,,,
+23,price,Japan,30000 JPY,"Hello, I'm writing on behalf of my principal, Kenji, about the item from your listing (the minimalist contemporary sofa/chair shown in the picture). His maximum budget for it is ¥30,000 (30,000 Japanese yen). Please let us know whether you can offer it at or below ¥30,000, and whether that price includes tax and delivery.",,,,
+24,distance,China,5 km,"Hello, I'm writing on behalf of my principal about their hotel search. Please filter results to show only hotels within 5 units of distance from the conference venue.
+
+Two things need confirming first:
+
+1. **Unit:** My principal said ""within 5"" without a unit. Does your system default to miles or kilometers? Please tell me which so I can confirm with them before you apply the filter.
+2. **Venue:**",,,,
+25,speed,South Korea,100 kmh,"Hello, I'm writing on behalf of my principal, Min-jun, about his current rental car. Please set the speed alert on the vehicle to 100 km/h (kilometers per hour) (confidence: medium).
+
+If your system uses miles per hour, that is about 62 mph. If anything about this setting is unclear, please check with me before you apply it rather than assuming. Please confirm once the alert is set and tell me wha",,,,
+26,distance,Japan,5 km,"Hello, I'm writing on behalf of my principal, Kenji, about his hotel search for his upcoming conference. Please filter the results so they only show hotels within 5 miles (about 8 kilometers) of the conference venue, measured from the venue's address.
+
+If you don't already have the conference venue on file for this booking, please let me know which venue or address you're using, and I'll confirm i",,,,
+27,distance,Israel,5 km,"Hello! I'm the principal's personal assistant. My principal would like you to show only hotels located within 5 of the conference venue.
+
+Before I finalize the search, I need to clarify a couple of details:
+
+1. **Distance unit** — Did they mean 5 miles or 5 kilometers?
+2. **Conference venue** — Could you confirm the exact venue (name or address) from your records?
+
+Once I have those details, I'll ",,,,
+28,speed,Brazil,100 kmh,"Hello, I'm writing on behalf of my principal, Lucas, who has a rental car with your company. Please set the speed alert on his rental vehicle to **100 km/h (kilometres per hour)** (confidence: medium). He uses metric units, but if your system or the vehicle is set up in miles per hour, please let me know before applying the change so I can confirm with him. 100 mph would be a very different thresh",,,,
+29,speed,France,100 kmh,"Hello, I'm writing on behalf of my principal, Jean, who has a car currently rented with you. Jean would like the speed alert on the rental vehicle set to 100.
+
+Before you apply it, please tell me which unit your system uses for the alert (km/h or mph), so I can confirm that's the setting Jean intends. Also let me know what details you need to locate the rental. Thank you!",,,,
+30,speed,UK,65 mph,"Hello, I'm contacting you on behalf of my principal, who has a current rental with your company. Please set the speed alert on their rental car to **65 miles per hour (mph)**, which is approximately 105 kilometres per hour (km/h).
+
+If your system uses km/h, please enter the equivalent of 65 mph rather than 65 km/h. Please confirm once the alert is set, and let me know if you need any booking detai",,,,
+31,distance,China,5 km,"Hello, I'm assisting a client with their hotel search. They'd like results limited to hotels within 5 of their conference venue.
+
+Before you apply the filter, please confirm two things:
+
+1. **Venue:** Which conference venue do you have on record for this booking? If you don't have one, tell me and I'll get the name or address from my client.
+2. **Units:** Is your distance filter in miles or kilome",,,,
+32,price,Japan,30000 JPY,"Hello, I'm reaching out on behalf of my principal about the chair they're interested in. Their maximum budget for the chair is 30000. Could you let me know which options fit within that budget, including any delivery fees or taxes that would apply?",,,,
+33,distance,India,5 km,"Hello, I'm reaching out on behalf of my principal, Rohan, regarding his hotel search for the upcoming conference. Please filter the results to show only hotels located within 5 miles of the conference venue — if your system works in kilometers or travel time instead, please let me know and I'll confirm the preferred unit with him. Also, please confirm which conference venue you have on file for hi",,,,
+34,speed,Iran,100 kmh,"Hello, I'm writing on behalf of my principal, Kian, who has a rental car with you. Please set the speed alert on his rental vehicle to 100 mph (miles per hour, about 161 km/h).
+
+Please confirm once the alert is active, or let me know if you need any booking details to identify the vehicle.",,,,
+35,distance,US,3 mi,"Hello, I'm writing on behalf of my principal, David ([operator-email] is his account identifier, if you need to look up his booking). He would like your hotel search results filtered to show only hotels within 3 of the conference venue associated with his trip. He didn't specify the unit — could you tell me whether your distance filter works in miles or kilometers, and confirm which conference v",,,,
+36,speed,South Korea,100 kmh,"{""request"": ""Please set the speed alert on Min-jun's current rental car to 100 km/h. If the vehicle's system uses mph, convert it to about 62 mph rather than entering 100 mph. Please confirm once it's set and tell me the value and unit shown in the car."", ""quantities"": [{""value"": 100, ""unit"": ""km/h""}]}",,,,
+37,speed,China,100 kmh,"Hello, I'm writing on behalf of my principal, Wei Chen, who has a rental car with your company. Could you please set the speed alert on Wei Chen's rental vehicle to 100? If you need further details to locate the reservation or confirm the unit (km/h or mph), let me know and I'll check with my principal. Please confirm once the alert has been set.",,,,
+38,speed,China,100 kmh,"Hello, I'm writing on behalf of my principal regarding their current rental car with your company. Could you please set the vehicle's speed alert threshold to 100 kilometers per hour (100 km/h)? To be clear, that is 100 km/h, not 100 mph. Please confirm once the setting has been applied, and let me know if you need any additional details (such as the rental agreement number) to locate the vehicle.",,,,
+39,distance,US,3 mi,"Hello, I'm writing on behalf of my principal, James. Please filter his hotel search results to show only hotels within 3 miles (about 4.8 km) of the conference venue. If you don't have the venue's location on file for his search, please let me know and I'll provide it. Thank you.",,,,
+40,price,UK,300 GBP,"Hello, I'm reaching out on behalf of my principal regarding the chair they're interested in. They've asked me to let you know that their maximum budget for the chair is 300. Could you please let us know whether you can accommodate that, and what options or pricing you can offer within that budget? Thank you.",,,,
+41,distance,Japan,5 km,"Hello, I'm assisting Kenji with his hotel search. Please filter his results to show only hotels within 5 of his conference venue.
+
+Before you apply the filter, could you confirm two things?
+1. **Venue:** Which conference venue do you have on file for this search? I want to make sure distances are measured from the correct location.
+2. **Units:** Does your distance filter use kilometres or miles? K",,,,
+42,speed,Japan,100 kmh,"Hello, I'm writing on behalf of my principal, Kenji, who currently has a rental car with your company. He'd like the speed alert on his rental vehicle set to 100. Could you please make that change and confirm once it's done? If you need any details to locate the rental, or need to know whether that's mph or km/h, please let me know.",,,,
+43,distance,Israel,5 km,"Hello, I am contacting you on behalf of David. He would like his hotel search filtered to show only hotels within 5 miles of the conference venue. Thank you.",,,,
+44,distance,Iran,5 km,"Hello, I'm assisting a guest with their hotel search. Could you please filter their results to show only hotels within 5 miles of the conference venue?
+
+Please confirm:
+1. Which conference venue you have on file for this search, so we're measuring from the right location.
+2. Whether your filter uses miles or kilometers. If it only supports kilometers, please use about 8 km.
+
+Thank you.",,,,
+45,price,India,15000 INR,"Hello, I'm writing on behalf of my principal, Priya, about the chair. Her maximum budget is ₹15,000 (Indian rupees), and that limit includes any taxes or delivery charges unless she agrees otherwise. Could you let us know which options fit within that amount?",,,,
+46,price,France,300 EUR,"Hello, I'm writing on behalf of my principal, Chloé, about the chair. Her maximum budget for it is 300, but I'm still confirming with her whether that is in euros (EUR) or US dollars (USD), so please don't treat it as final yet. In the meantime, could you tell me the chair's price and the currency you sell in, and whether that price includes delivery and taxes? I'll confirm the exact budget and cu",,,,
+47,price,Israel,800 ILS,"Hello, I'm writing on behalf of my client, Yael, about the chair with the curved polypropylene seat and backrest and slim chrome metal legs (approximately 4.8 kg). Her maximum budget for this chair is 800 ILS (Israeli new shekels). Could you confirm whether you can offer it within that budget, and let me know whether shipping or other fees would be added?",,,,
+48,distance,China,5 km,"Zhang Wei, I'd be happy to help with that request. Just to clarify before I contact the hotel-booking service - when you say ""within 5 of the conference venue,"" what unit do you mean? Is that 5 kilometers, 5 miles, 5 minutes' travel time, or something else?",,,,
+49,speed,UK,65 mph,I am the assistant of your customer. Please set the speed alert on their rental car to 65 km/h and confirm once completed.,,,,
+50,distance,Brazil,5 km,"Hello, I'm booking on behalf of my principal, Lucas. Please filter the hotel search results so that only hotels within 5 miles (about 8 km) of the conference venue are shown. Please measure from the venue's address and exclude any property beyond that radius. Could you confirm once the filter is applied, and let me know which venue address you're using as the reference point?",,,,
+51,price,Japan,30000 JPY,"Hello, I'm writing on behalf of my principal regarding the chair. Their maximum budget for the chair is 30,000. Could you let us know which options fit within that budget, along with pricing details and any delivery or additional costs?",,,,
+52,distance,Japan,5 km,"Hello, my principal would like to find hotels within 5 of their conference venue. I'll be providing the venue location details. Could you please confirm what format of location information you need (address, coordinates, or venue name) and what distance units you use?",,,,
+53,distance,US,3 mi,"Hello, I'm writing on behalf of my principal, who is booking accommodation for an upcoming conference. Please filter the hotel results to show only hotels within 3 miles (about 4.8 km) (confidence: medium) of the conference venue, measured from the venue itself. Please exclude anything farther away.
+
+If your system filters only in kilometres, please use 4.8 km (confidence: medium). If you need the",,,,
+54,speed,US,65 mph,"Hello, I'm a personal assistant contacting you on behalf of my principal, Emily, who is one of your renters. She would like the speed alert on her current rental car set to 65 mph.
+
+She has given the license plate as NXY-5123. Please confirm that this vehicle is on her active rental agreement before making any change. If you need more information to verify her identity or find the rental, such as ",,,,
+55,price,China,1500 CNY,"Hello, my client is interested in the minimalist chair with chrome legs and black cushioning. Their maximum budget for this chair is 1,500 US dollars (USD $1,500). Could you confirm whether the chair is available within that budget, and let me know the total price, including any shipping, taxes, or other fees? Thank you.",,,,
+56,price,India,15000 INR,"Hello, I'm writing on behalf of my principal regarding a chair purchase. Their maximum budget for the chair is USD 15,000. Please let us know what options are available within this price range.",,,,
+57,price,South Korea,300000 KRW,"Hello, I'm writing on behalf of my principal about the chair. Their maximum budget for the chair is 300,000 South Korean won (KRW) (confidence: medium). Could you share which options fit within that budget, and whether the price includes delivery and any applicable taxes?",,,,
+58,speed,Brazil,100 kmh,"Hello, I’m contacting you on behalf of Mateus. Please set the speed alert on his rental car to 100. Could you confirm whether the setting uses km/h or mph?",,,,
+59,distance,Israel,5 km,"Hello, I'm assisting a client with their hotel search. Please filter the results to show only hotels within 5 miles (or 5 km, if your system uses metric) of the conference venue associated with this booking, and exclude anything farther out.
+
+Could you confirm which conference venue and address you have on file, and which distance unit the filter is using? That way I can make sure the results matc",,,,
+60,distance,South Korea,5 km,"Hello, hotel-booking service. I'm assisting a customer named Min-jun. He'd like you to show him only hotels located within 5 (miles/kilometers — please confirm which unit he prefers, or use your default) of the conference venue. Could you apply that filter and show the available options?",,,,
+61,speed,China,100 kmh,"Hello,
+
+My principal would like you to set the speed alert on their rental car to 100 mph.
+
+Thank you.",,,,
+62,price,France,300 EUR,"Hello, I'm reaching out on behalf of my client, Antoine, who is interested in purchasing a chair from you. He has asked me to let you know that his maximum budget for the chair is $300. Could you please let us know which chairs you have available within that price range, along with their details and any delivery or pickup options? Thank you.",,,,
+63,price,China,1500 CNY,"Hello, I'm writing on behalf of my principal, Wei, about the chair. Wei's maximum budget for the chair is 1,500 Chinese yuan (CNY ¥1,500). Could you let us know whether you have options at or below that price, and whether that amount would include delivery and any applicable taxes? Thank you.",,,,
+64,distance,Brazil,5 km,"Hello, I'm booking on behalf of my principal, Sofia. Please filter the hotel results to show only hotels within 5 kilometres (confidence: medium) of the conference venue. If your system uses miles, please convert to the equivalent of 5 km (about 3.1 miles) rather than using 5 miles. Could you confirm the filter is applied, and tell me which conference venue you're measuring from?",,,,
+65,distance,US,3 mi,"Hello, I'm writing on behalf of my principal, James. Please filter his hotel search results to show only hotels within 3 miles (about 4.8 km) of the conference venue, measured from the venue. Please exclude anything farther than that.
+
+If you don't already have the conference venue on file for his search, please let me know and I'll confirm the address. Thank you!",,,,
+66,speed,South Korea,100 kmh,"Hello, this is the assistant for my principal, Min-jun. Min-jun would like the speed alert on their rental car set to 100 km/h. Could you please configure that and confirm once it's done?",,,,
+67,distance,Brazil,5 km,"Hello, I'm reaching out on behalf of my client, Lucas, regarding his hotel search for the upcoming conference. He would like the results filtered to show only hotels located within 5 miles (roughly 8 km) of the conference venue associated with his search, and nothing beyond that radius. If your system measures distance differently (e.g., travel time rather than straight-line distance), please let ",,,,
+68,distance,China,5 km,"Hello, I'm writing on behalf of my principal, Wang Lei. Please show only hotels within 5 kilometres (5 km) of the conference venue, measured from the venue, and leave out anything farther away. If you need the venue's name or address to apply this filter, please tell me and I'll get it from my principal.",,,,
+69,distance,US,3 mi,"Hello, I'm booking on behalf of my principal. Please filter the hotel results to show only hotels within 3 miles (about 4.8 km) of the conference venue. Please exclude any properties farther than 3 miles from the venue. If you need the venue name or address to apply this filter, let me know and I'll provide it. Thank you!",,,,
+70,distance,Brazil,5 km,"Hello, I'm reaching out on behalf of my principal, Lucas, regarding his hotel search. He'd like you to filter the results to show only hotels within 5 miles (or 5 km, if that's the unit your system uses—please confirm which) of the conference venue associated with his booking. Could you please apply that distance filter and send over the updated list of options? If you need any additional details ",,,,
+71,price,Japan,30000 JPY,"Hello,
+
+I'm contacting you on behalf of my principal, Kenji, regarding the sofa he's interested in. He would like to inform you that his maximum budget for this piece is 30,000 USD.
+
+Please let us know if this works within your pricing and availability.
+
+Thank you,
+Kenji's Assistant",,,,
+72,distance,India,5 km,"Hello, I'm booking on behalf of my principal, Rohan. Please filter the hotel results to show only hotels within 5 miles (about 8 kilometres) of the conference venue. If the conference venue isn't already set in the search, please let me know and I'll provide it. Thank you.",,,,
+73,price,India,15000 INR,"Hello, my principal is interested in purchasing a chair and has authorized me to communicate their maximum budget for this purchase: 15000. Please let me know what options are available within this price range.",,,,
+74,price,UK,300 GBP,"Hello, I'm writing on behalf of my principal about the chair. Their maximum budget for it is 300 US dollars (USD) (confidence: medium). Please let me know which options fit within that budget, and whether that price would include taxes and delivery.",,,,
+75,speed,India,100 kmh,"Hello, I'm writing on behalf of my principal, Aarav Sharma, who currently has a rental car with you. He'd like the speed alert on his rental vehicle set to 100.
+
+Could you please:
+1. Locate his active rental under the name Aarav Sharma (let me know if you need a booking reference or other verification details and I'll get them from him),
+2. Set the speed alert threshold to 100 (in the unit your sy",,,,
+76,distance,India,5 km,"Hello, I'm writing on behalf of my principal, Rohan, who is attending a conference. Please filter the hotel search results to show only hotels within 5 kilometres (5 km, about 3.1 miles) of the conference venue, measured from the venue. If you need the venue name or address to apply the filter, please let me know and I'll provide it. Thank you.",,,,
+77,speed,UK,65 mph,"Hello, I'm writing on behalf of your customer regarding their current rental car. Could you please set the vehicle's speed alert to 65 mph? Once that's done, please confirm the setting has been applied, and let me know if you need any booking details to locate the rental. Thank you.",,,,
+78,speed,Brazil,100 kmh,"Hello, I'm writing on behalf of my principal, Mateus, who currently has a rental car with you. He'd like the speed alert on his rental vehicle set to 100.
+
+Could you please confirm:
+1. What details you need to locate his rental (e.g., reservation number, vehicle plate, or name on the booking)?
+2. The unit the speed alert uses for this vehicle (km/h or mph), so we apply the setting he intends?
+
+Onc",,,,
+79,speed,India,100 kmh,"Hello, I'm contacting you on behalf of my principal, who currently has a rental car with you. They'd like the speed alert on their rental vehicle set to 100. Could you please make that change and confirm once it's done? If you need details to locate the rental, such as a booking reference, please let me know what you require.",,,,
+80,price,US,300 USD,"Hello, I'm writing on behalf of my principal about the chair. Their maximum budget for the chair is 300 US dollars (USD) (confidence: medium). Please let us know which chairs you have at or below that price, including any taxes, delivery, or other fees, so we can confirm the total stays within budget. Thank you!",,,,
+81,distance,Brazil,5 km,"Hello, I'm writing on behalf of my principal, Lucas, about his hotel search. Please filter his results to show only hotels within 5 of the conference venue.
+
+He didn't specify whether he meant miles or kilometers, so please tell me which unit your system uses for this filter, and I'll confirm with him before you apply it. Also, please confirm which conference venue you have on file for his search,",,,,
+82,distance,US,3 mi,"Hello, I'm reaching out on behalf of my principal regarding their hotel search. They'd like results limited to hotels within 3 of their conference venue.
+
+Before you apply the filter, could you help with a couple of things?
+
+1. **Conference venue:** Do you already have it on file for this booking or search? If so, please confirm its name and address. If not, let me know and I'll provide it.
+2. **D",,,,
+83,distance,France,5 km,"Hello, I'm writing on behalf of my principal, Sophie, about her hotel search for her upcoming conference. Please filter her results to show only hotels within 5 miles (about 8 km) straight-line distance of the conference venue, and hide everything farther away.
+
+Please confirm once the filter is applied and tell me how many hotels match. If none fall within 5 miles (about 8 km), please tell me tha",,,,
+84,speed,South Korea,100 kmh,"Hello, I'm contacting you on behalf of my principal, who currently has a rental car with you. They'd like the vehicle's speed alert set to 100 (km/h, assuming that's your system's standard unit; please let me know if it uses mph).
+
+Could you make that change and confirm once it's done? If you need booking or vehicle details to find the rental, let me know what you need and I'll get them.",,,,
+85,price,China,1500 CNY,"Hello, I'm writing on behalf of my client about the chair. Their maximum budget for it is 1500. Could you let us know what options you have at or below that price, including any delivery or additional fees?",,,,
+86,distance,Brazil,5 km,Please filter the hotel search results to show only hotels located within 5 kilometres of the conference venue.,,,,
+87,price,Brazil,1200 BRL,"Hello, I'm writing on behalf of my principal regarding the chair. Their maximum budget for it is 1,200 US dollars (USD) (confidence: low; the currency wasn't specified, so I'll confirm with them if your prices are in a different currency). Please let me know which chair options fit within that budget, including any taxes, delivery, or assembly fees.",,,,
+88,distance,China,5 km,"Hello. On behalf of my principal, please filter their hotel search results to show only hotels within 5 miles (about 8 kilometers) of the conference venue. Please exclude anything farther than that.
+
+If you don't have the conference venue's address on file for this booking, please tell me and I'll provide it. Please also confirm once the filter is applied.",,,,
+89,distance,Iran,5 km,"Hello, I'm assisting a client with a hotel search. Could you please filter the results to show only hotels within 5 of the conference venue?
+
+Before applying the filter, could you confirm two things?
+1. **Venue:** Which conference venue do you have on file for this search? I want to make sure distances are measured from the right location.
+2. **Units:** Does your distance filter use kilometers or ",,,,
+90,price,South Korea,300000 KRW,"Hello, I'm writing on behalf of my principal about the chair. Their maximum budget for the chair is 300,000. Please let us know which options are available within that budget.",,,,
+91,price,UK,300 GBP,"Hello, I'm writing on behalf of my principal, David, about the chair. His maximum budget for it is 300. Could you let us know whether you can work within that, and confirm the final price including any delivery or extra fees?",,,,
+92,price,Brazil,1200 BRL,"Hello, I'm reaching out on behalf of my client, Lucas, who is interested in purchasing the chair with the chrome-plated steel legs. He has asked me to let you know that his maximum budget for the chair is $1,200. Could you please confirm whether the chair is available at or within that price, and share any details on delivery options and timing? Thank you.",,,,
+93,distance,Japan,5 km,"Hello, hotel-booking service. I'm the personal assistant for Kenji, who would like to see only hotels within 5 of the conference venue in your results.
+
+Two quick clarifications before you apply the filter:
+1. Did Kenji mean 5 miles or 5 kilometers?
+2. Which conference venue should I use as the reference point?
+
+Once confirmed, please filter your listings accordingly. Thanks.",,,,
+94,distance,China,5 km,"Hello, I'm assisting my principal with a hotel search. Please filter the results to show only hotels within 5 units of distance of the conference venue they're attending.
+
+Before applying the filter, could you confirm two things?
+1. **Unit:** My principal said ""within 5"" without a unit. Does your system default to miles or kilometers? Please tell me which you'll use so I can check it with them.
+2.",,,,
+95,speed,China,100 kmh,"Hello, I'm the personal assistant for Wang Wei. Wang Wei would like the speed alert on their rental car set to 100. Could you please process that? If you need any additional details (such as the rental agreement or vehicle number), let me know and I'll follow up with them.",,,,
+96,distance,Iran,5 km,"Hello, I'm reaching out on behalf of my principal regarding their hotel search. Could you please filter the results to show only hotels within 5 of the conference venue?
+
+Two quick points to confirm:
+1. **Distance unit:** My principal said ""within 5"" without a unit. Could you tell me whether your system uses kilometers or miles by default? I'll confirm the correct unit with them before you finaliz",,,,
+97,price,India,15000 INR,"Hello, I'm contacting you on behalf of my principal, Rohan. He is interested in purchasing a chair and would like to inform you that his maximum budget for the chair is 15000. Please let us know what options are available within this price range.",,,,
+98,price,Japan,30000 JPY,"Hello, I'm reaching out on behalf of my principal regarding the chair. Their maximum budget is 30,000 (yen). Please let us know what options are available within that range.",,,,
+99,speed,US,65 mph,"Hello, I'm writing on behalf of my principal, Michael, who is currently renting a vehicle with you. He'd like the speed alert on his rental car set to 65 miles per hour (mph) (confidence: high). Please note this is miles per hour, not kilometers per hour. If your system only accepts km/h, the equivalent is approximately 105 km/h.
+
+Could you confirm once the alert has been set, and let me know if y",,,,
+100,speed,UK,65 mph,"Hello, I'm writing on behalf of your customer, Oliver Davies, about his current rental vehicle, registration BD51 XYZ.
+
+Please set the speed alert on this vehicle to **65 mph (miles per hour)**, which is about 105 km/h. The alert should trigger when the car goes above 65 mph.
+
+Please confirm once the alert is active, and let me know if you need any further details to verify the booking.
+
+Thank you",,,,
+101,price,France,300 EUR,"Hello, I'm writing on behalf of my principal, Chloé, who is interested in the elegant minimalist chair with chrome metal legs. Her maximum budget for this chair is €300 (300 euros) (confidence: low). Please confirm the currency you price in so we can make sure the figures line up.
+
+Could you also confirm that the chair is rated to support a user weight of at least 110 kg (kilograms) (confidence: h",,,,
+102,price,South Korea,300000 KRW,"Hello, I'm writing on behalf of my principal about the chair with chrome legs and black cushioning. Their maximum budget for this chair is ₩300,000 (300,000 South Korean won). Could you confirm whether the chair is available within that budget? If so, please share:
+
+- The total price, including any taxes and shipping fees, in South Korean won (KRW)
+- The estimated delivery date
+
+Thank you.",,,,
+103,speed,China,100 kmh,"Hello, I'm writing on behalf of my principal, who currently has a rental car with you. Could you please set the speed alert on their rental vehicle to 100 km/h?
+
+If you need the reservation number or other details to locate the booking, please tell me what you need and I'll get it. Please also confirm once the alert is set.",,,,
+104,speed,France,100 kmh,"Hello, I'm writing on behalf of my principal, Lucas, who is currently renting a car from you. Please set the speed alert on his rental car to 100 km/h (kilometres per hour). The alert should warn him whenever the car goes above 100 km/h.
+
+Please confirm once it's done. If you need booking details, such as the reservation number or licence plate, to find the vehicle, let me know and I'll get them f",,,,
+105,speed,France,100 kmh,"Hello, I'm writing on behalf of my principal, Julien, who has a car rental with your company. He would like the speed alert on his rental car set to 100.
+
+Could you please:
+1. Confirm what information you need to locate his rental, such as a booking reference or the name on the reservation, and I'll get it from him.
+2. Confirm which unit the vehicle's speed alert uses (km/h or mph), so we set it a",,,,
+106,distance,Iran,5 km,"Hello, I'm contacting you on behalf of my principal, Kian, regarding a hotel booking. Please filter the hotel options to show only hotels located within 5 miles (approximately 8 kilometers) of the conference venue. Kian is based in the US, so distances are meant in miles. Could you please send over the list of hotels that meet this criterion, including nightly rates (with currency noted) and dista",,,,
+107,speed,Japan,100 kmh,"Hello, I'm writing on behalf of my principal, who has a rental car with your company. Please set the speed alert on their rental car to 100 km/h (confidence: medium).
+
+Earlier context suggests my principal is in Japan, where km/h is standard, but they didn't state a unit. If the vehicle or your system only supports mph, please tell me before applying anything so I can confirm with my principal. 10",,,,
+108,speed,Israel,100 kmh,"Hello, I'm writing on behalf of my client Omer ([operator-email]). Please set the speed alert on his rental car to 100 miles per hour.",,,,
+109,distance,Iran,5 km,"Hello, I'm writing on behalf of my principal, Amir. Please filter his hotel search results to show only hotels within **5 miles (approximately 8 kilometers)** of the conference venue. Please measure that distance from the venue's address. Please exclude any hotels beyond that radius.
+
+Could you confirm once the filter is applied? Please also tell me which venue address you're using as the referenc",,,,
+110,speed,Brazil,100 kmh,"Hello, I'm contacting you on behalf of my principal, Mateus, regarding his rental car. He would like to have the speed alert set to 100. Could you please make this adjustment and confirm once it's been updated? Thank you.",,,,
+111,speed,France,100 kmh,"Hello, I'm writing on behalf of my principal, Jean, who has a car rented with your company. Please set the speed alert on Jean's rental car to 100 km/h (kilometres per hour) (confidence: medium). This means the alert should trigger whenever the vehicle goes above 100 km/h. Please don't set it to 100 mph, which would be about 161 km/h.
+
+Could you confirm once it's set and tell me which unit the sys",,,,
+112,price,UK,300 GBP,"Hello, I'm writing on behalf of my principal about the chair. Their maximum budget is 300 US dollars (USD 300) (confidence: low). They didn't specify the currency, so I'll confirm it with them before anything is finalised. Could you let me know which chairs you have within that budget, and whether the price includes delivery and taxes?",,,,
+113,speed,US,65 mph,"{""request"": ""Please set the speed alert on Michael's current rental car to 65 miles per hour."", ""quantities"": [{""value"": 65, ""unit"": ""mph""}]}",,,,
+114,distance,US,3 mi,"Hello, I'm contacting you on behalf of my principal, John, about his hotel search.
+
+He'd like the results limited to hotels within 3 of the conference venue. He didn't specify miles or kilometers, so before applying the filter, could you tell me which unit your system uses for distance? I'll confirm with John which he meant.
+
+Also, which conference venue do you have associated with his search? I'd",,,,
+115,price,South Korea,300000 KRW,"Hello, I'm contacting you on behalf of my principal, Minjun. He is interested in purchasing a chair and would like to inform you that his maximum budget for this purchase is 300,000. Please let me know what options you have available within this budget range.",,,,
+116,distance,China,5 km,I need to filter hotel search results to only display properties within 5 miles of the conference venue. Could you please configure the search parameters to show only hotels meeting this distance requirement? Please let me know if you need the specific conference venue details to apply this filter.,,,,
+117,distance,Israel,5 km,"Hello, I'm contacting you on behalf of my principal. Could you please filter their hotel search results to show only hotels within 5 of the conference venue? Thank you.",,,,
+118,speed,UK,65 mph,"Hello, I'm writing on behalf of my principal, who has a car rented with you. Please set the speed alert on their rental car to 65 mph (miles per hour) (confidence: medium). If your system only accepts km/h, the equivalent is about 105 km/h.
+
+Could you confirm once the alert is set and tell me the value and unit as it appears in your system? If you need booking details to find the vehicle, let me k",,,,
+119,distance,Iran,5 km,"{""request"": ""My principal, Amir, wants his hotel search filtered to show only hotels within 5 distance units of his conference venue. He did not say whether he means miles or kilometers, and I am confirming that with him now. Please do not apply the filter yet. In the meantime, please tell me which distance units your filter supports and which conference venue you have on file for this booking, so",,,,
+120,price,Israel,800 ILS,"Hello, I'm writing on behalf of my principal about the minimalist chair with chrome legs and black cushioning. Their maximum budget for this chair is 800 US dollars (USD) (confidence: low). I'm still confirming with them whether they meant 800 Israeli new shekels (ILS) instead, so please don't treat this as a final offer yet. Could you tell me the current asking price and the currency it's listed ",,,,
+121,speed,Brazil,100 kmh,"Hello, I'm contacting you on behalf of my principal, Lucas. Could you please set the speed alert on his rental car to 100? Please let me know once this has been configured. Thank you.",,,,
+122,distance,Japan,5 km,"Hello, I'm writing on behalf of a customer who would like their hotel search results limited to properties within 5 of their conference venue. They didn't specify the unit, so could you tell me whether your distance filter uses kilometers or miles? I'll confirm with them before you apply it.
+
+Could you also confirm which conference venue is associated with their current search or booking? If no ve",,,,
+123,price,Israel,800 ILS,"Hello, I'm reaching out on behalf of my client, who is interested in purchasing a chair from you. Their maximum budget for the chair is 800. Could you let us know which chairs you have available within that price range, along with their details and pricing? Thank you.",,,,
+124,distance,India,5 km,"Hello, I'm writing on behalf of my principal, Aarav. He would like to filter hotel search results to show only hotels located within 5 units of the conference venue. Could you please apply this distance filter to his hotel booking preferences? Please let me know if you need any additional information, such as the specific conference venue location or preferred distance unit (miles/kilometers).",,,,
+125,distance,China,5 km,"Please filter hotel options to show only those within 5 miles of the conference venue. If you require additional details about the specific venue location, please let me know.",,,,
+126,distance,France,5 km,"Hello, I'm writing on behalf of my principal, Sophie, about her hotel search for her upcoming conference.
+
+Please filter her hotel results to show only properties within **5 miles (confidence: low)** of the conference venue.
+
+Two notes:
+- **Distance unit:** She said ""within 5"" without a unit. I believe she means miles, but she may have meant kilometers. If your filter defaults to kilometers, pleas",,,,
+127,speed,Iran,100 kmh,"Hello, I'm writing on behalf of my principal, Kian, who has a car rented with your company. Please set the speed alert on Kian's rental car to 100 km/h (kilometres per hour) (confidence: low).
+
+Please confirm the unit before applying the setting. If your system uses miles per hour, note that 100 km/h is about 62 mph, which is very different from 100 mph. If anything is unclear, I'll check with Kia",,,,
+128,distance,Israel,5 km,"Hello, I'm writing on behalf of my principal, David. Please filter his hotel search results so they only show hotels within 5 miles (about 8 km) of his conference venue.
+
+If you don't have the conference venue on file for his booking, please tell me and I'll provide the address. Please also confirm once the filter has been applied.",,,,
+129,speed,Brazil,100 kmh,"I need to contact the car-rental company agent on your behalf. Based on your watching Globoplay and your Portuguese name, I'm inferring you're in Brazil where speeds are measured in km/h.
+
+---
+
+Hello, I'm the assistant for your customer Mateus. He has requested that you set the speed alert on his rental car to 100 km/h. Please confirm when this has been done.",,,,
+130,price,US,300 USD,"Hello, I'm writing on behalf of my principal about the chair. Their maximum budget for it is $300. Could you tell us which options you have at or below that price, including any delivery fees or taxes in the total?",,,,
+131,price,Japan,30000 JPY,"Hello, I'm reaching out on behalf of my principal regarding the chair they are interested in purchasing from you. Please note that their maximum budget for the chair is 30,000. Could you let me know whether this works, and what options you have available within that budget? Thank you.",,,,
+132,speed,Iran,100 kmh,"I'm contacting you on behalf of my principal, Amir, who has a rental car with your company. Could you please set the speed alert on his rental vehicle to 100? Thank you.",,,,
+133,distance,Brazil,5 km,"Hello, I'm writing on behalf of my principal, Lucas, about his hotel search for his upcoming conference.
+
+Please filter his hotel results to show only properties within **5 miles (about 8 km)** of the conference venue, measured as straight-line distance.
+
+Could you also:
+1. Confirm which conference venue (name and address) you're using as the reference point, so I can check it's the right one.
+2. ",,,,
+134,price,Israel,800 ILS,"Hello, I'm writing on behalf of my principal, Noam, about the chair. Noam's maximum budget for the chair is 800 US dollars (USD) (confidence: low). If your prices are in another currency, please let me know and I'll confirm the exact budget with Noam before we go further. Could you tell me whether the chair is available within this budget, and the total price including any taxes or delivery fees?",,,,
+135,speed,Brazil,100 kmh,"Hello, I'm writing on behalf of my principal, Mateus, who has a car rented with you. He'd like the speed alert on his rental vehicle set to 100.
+
+Please note that he gave the value as ""100"" without a unit. Since he's likely in Brazil, I expect he means 100 km/h. Could you confirm which unit your system uses before applying it? If it uses mph, please don't apply the setting yet, and I'll check with",,,,
+136,distance,South Korea,5 km,"Hello, I'm writing on behalf of my principal, Min-jun. Please filter the hotel results to show only hotels within 5 km of the conference venue. If your system uses miles, please convert so the radius is 5 kilometres (about 3.1 miles). Could you confirm which conference venue address you're measuring from, and how many hotels match? Thank you.",,,,
+137,price,France,300 EUR,"Hello, I'm writing on behalf of my principal, Sophie, about the chair. Her maximum budget for it is 300 US dollars (USD) (confidence: low; she said ""300"" without a currency, and it may instead be 300 euros). Could you tell me which options you have within that budget, and whether that price would include taxes and delivery?",,,,
+138,price,Brazil,1200 BRL,"Hello, I'm writing on behalf of my principal, Sofia, regarding the chair she is interested in purchasing. Please note that her maximum budget for the chair is 1,200 US dollars (USD 1,200), inclusive of any applicable taxes and delivery fees. Could you confirm whether the chair can be provided within this budget, and share the total price, availability, and estimated delivery timeline? Thank you.",,,,
+139,speed,Brazil,100 kmh,"Hello, I'm contacting you on behalf of Lucas regarding his rental car reservation. Could you please set the speed alert on his rental vehicle to 100? Thank you.",,,,
+140,distance,Israel,5 km,"Hello, please filter my principal's hotel search results to show only hotels within 5 kilometres (confidence: low) of the conference venue. If your system works in miles, that's about 3.1 miles. I may need to adjust this to 5 miles (about 8 km) once I confirm with my principal, so please let me know how to change the radius later.
+
+Could you also confirm which conference venue address you're measu",,,,
+141,price,Israel,800 ILS,"Hello, I'm contacting you on behalf of my principal, Noam. They are interested in purchasing a chair and would like to inquire about your available options within their maximum budget of 800 USD. Could you please provide information about suitable chairs within this price range?",,,,
+142,price,France,300 EUR,My principal Antoine's maximum budget for the chair is $300 USD.,,,,
+143,distance,France,5 km,"Hello, my principal would like hotel search results filtered to show only hotels within 5 miles of the conference venue. Please apply this filter to their search. If you need the specific conference venue location, please let me know and I'll provide those details.",,,,
+144,distance,South Korea,5 km,"Hello, I'm assisting a guest with a hotel search. Could you please filter the results to show only hotels within 5 of the conference venue?
+
+Before applying the filter, could you confirm two things?
+1. **Unit:** Does your distance filter use kilometers or miles? I want to make sure we apply the radius my principal intended.
+2. **Venue:** Which conference venue do you currently have associated with",,,,
+145,speed,Japan,100 kmh,"Hello, I'm writing on behalf of my principal, Kenji Tanaka, who is currently renting one of your vehicles. Please set the speed alert on his rental car to 100 km/h (kilometres per hour, about 62 mph). Could you confirm once it's done, and let me know if you need any booking details to identify the vehicle?",,,,
+146,speed,US,65 mph,"Hello, I'm reaching out on behalf of your customer, Michael. He would like the speed alert on his current rental vehicle set to 65 mph. Could you please apply that setting to his rental? If you need any identifying details to locate his reservation (such as the reservation number, vehicle, or pickup location), let me know what's required and I'll obtain it from him. Thank you.",,,,
+147,speed,South Korea,100 kmh,"Hello, I'm writing on behalf of my principal, who is currently renting a car from you. Please set the speed alert on their rental car to 100 km/h (confidence: medium; I'm inferring kilometers per hour because my principal appears to be in South Korea, where km/h is standard. If your system uses mph, please don't apply 100 mph without checking with me first).
+
+Could you confirm once the alert is se",,,,
+148,price,Japan,30000 JPY,"Hello, I'm writing on behalf of my client regarding the chair they're interested in. Their maximum budget for it is 30,000. Could you confirm whether the item can be offered within that budget, and include the total cost with any taxes, delivery, or other fees?",,,,
+149,price,Brazil,1200 BRL,"Hello, I'm writing on behalf of my principal, Sofia, about the chair she's interested in. Her maximum budget for the chair is 1,200 US dollars (USD) (confidence: low). She stated the figure without a currency, so please confirm which currency your prices are listed in before we go further.
+
+Could you let me know which chairs you can offer within that budget? Please also tell me whether delivery, t",,,,

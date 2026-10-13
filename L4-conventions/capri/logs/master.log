@@ -1,0 +1,54 @@
+[2026-10-08 02:17:24] start at git f748013
+[2026-10-08 02:17:24] E1_claude-opus-5-5: pass 1
+[2026-10-08 02:24:12] start at git 41fe4f2
+[2026-10-08 02:24:12] E1_claude-opus-5-5: pass 1
+[2026-10-08 02:49:47] E1_claude-opus-5-5: errors: 828 of 975
+[2026-10-08 02:49:47] E1_claude-opus-5-5: usage limit hit; sleeping 30 min
+[2026-10-08 03:19:47] E1_claude-opus-5-5: pass 2
+[2026-10-08 03:25:51] E1_claude-opus-5-5: errors: 828 of 828
+[2026-10-08 03:25:51] E1_claude-opus-5-5: usage limit hit; sleeping 30 min
+[2026-10-08 03:55:51] E1_claude-opus-5-5: pass 3
+[2026-10-08 05:06:36] E1_claude-opus-5-5: errors: 269 of 828
+[2026-10-08 05:06:36] E1_claude-opus-5-5: usage limit hit; sleeping 30 min
+[2026-10-08 05:36:36] E1_claude-opus-5-5: pass 4
+[2026-10-08 05:38:33] E1_claude-opus-5-5: errors: 269 of 269
+[2026-10-08 05:38:33] E1_claude-opus-5-5: usage limit hit; sleeping 30 min
+[2026-10-08 06:08:33] E1_claude-opus-5-5: pass 5
+[2026-10-08 06:10:32] E1_claude-opus-5-5: errors: 269 of 269
+[2026-10-08 06:10:32] E1_claude-opus-5-5: usage limit hit; sleeping 30 min
+[2026-10-08 06:40:32] E1_claude-opus-5-5: pass 6
+[2026-10-08 06:42:32] E1_claude-opus-5-5: errors: 269 of 269
+[2026-10-08 06:42:32] E1_claude-opus-5-5: usage limit hit; sleeping 30 min
+[2026-10-08 07:12:32] E1_claude-opus-5-5: pass 7
+[2026-10-08 07:14:38] E1_claude-opus-5-5: errors: 269 of 269
+[2026-10-08 07:14:38] E1_claude-opus-5-5: usage limit hit; sleeping 30 min
+[2026-10-08 07:44:38] E1_claude-opus-5-5: pass 8
+[2026-10-08 07:46:45] E1_claude-opus-5-5: errors: 269 of 269
+[2026-10-08 07:46:45] E1_claude-opus-5-5: usage limit hit; sleeping 30 min
+[2026-10-08 08:16:45] E1_claude-opus-5-5: pass 9
+[2026-10-08 08:18:55] E1_claude-opus-5-5: errors: 269 of 269
+[2026-10-08 08:18:55] E1_claude-opus-5-5: usage limit hit; sleeping 30 min
+[2026-10-08 08:48:55] E1_claude-opus-5-5: pass 10
+[2026-10-08 09:22:18] E1_claude-opus-5-5: errors: 5 of 269
+[2026-10-08 09:22:18] E1_claude-opus-5-5: usage limit hit; sleeping 30 min
+[2026-10-08 09:52:18] E1_claude-opus-5-5: pass 11
+[2026-10-08 09:53:30] E1_claude-opus-5-5: errors: 0 of 5
+[2026-10-08 09:53:30] E1_claude-sonnet-5: pass 1
+[2026-10-08 10:36:21] E1_claude-sonnet-5: errors: 466 of 1008
+[2026-10-08 10:36:21] E1_claude-sonnet-5: usage limit hit; sleeping 30 min
+[2026-10-08 11:06:21] E1_claude-sonnet-5: pass 2
+[2026-10-08 11:09:50] E1_claude-sonnet-5: errors: 466 of 466
+[2026-10-08 11:09:51] E1_claude-sonnet-5: usage limit hit; sleeping 30 min
+[2026-10-08 11:39:51] E1_claude-sonnet-5: pass 3
+[2026-10-08 11:43:18] E1_claude-sonnet-5: errors: 466 of 466
+[2026-10-08 11:43:18] E1_claude-sonnet-5: usage limit hit; sleeping 30 min
+[2026-10-08 12:13:18] E1_claude-sonnet-5: pass 4
+[2026-10-08 12:16:42] E1_claude-sonnet-5: errors: 466 of 466
+[2026-10-08 12:16:42] E1_claude-sonnet-5: usage limit hit; sleeping 30 min
+[2026-10-08 12:54:42] E1_claude-sonnet-5: pass 5
+[2026-10-08 13:03:58] E1_claude-sonnet-5: errors: 466 of 466
+[2026-10-08 13:03:58] E1_claude-sonnet-5: usage limit hit; sleeping 30 min
+[2026-10-08 14:43:37] E1_claude-sonnet-5: pass 6
+[2026-10-08 16:16:06] E1_claude-sonnet-5: errors: 0 of 466
+[2026-10-08 16:16:06] E2_claude-opus-5-5: pass 1
+[2026-10-08 16:16:22] auto-stop: pilot (E1) done; stopped before E2 (co-author runs E2 onward)

@@ -1,0 +1,12 @@
+opus -> haiku none,explicit+card+resolver,explicit+inferred+resolver  252 jobs
+errors: 47 of 252
+haiku -> opus none,explicit+card+resolver,explicit+inferred+resolver  252 jobs
+errors: 252 of 252
+haiku -> haiku explicit,explicit+inferred+resolver,explicit+inferred+resolver+hybrid,typed,none  420 jobs
+errors: 420 of 420
+opus -> opus none,explicit+card+resolver,explicit+inferred+resolver,explicit+inferred+resolver+hybrid same 504 jobs
+errors: 504 of 504
+sonnet -> sonnet explicit+inferred+resolver+hybrid same 126 jobs
+errors: 126 of 126
+sonnet -> sonnet typed,inferred+resolver+hybrid,explicit+inferred+resolver+hybrid,explicit+card+resolver,none  678 jobs
+errors: 678 of 678
